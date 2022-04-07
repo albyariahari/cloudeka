@@ -1,0 +1,55 @@
+.cards {
+    &__estimation {
+    }
+}
+
+.estimation-category {
+    @include rem("padding-bottom", 40px);
+
+    &__wrapper {
+        @include rem("padding-bottom", 30px);
+    }
+    &__title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #e6e6e6;
+        @include rem("padding", 8px 20px);
+    }
+    &__item {
+        @include rem("padding", 5px 15px 0);
+
+        .component-item-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .border-cost {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            padding: 5px 0;
+            margin-top: 8px;
+            border-top: 1px solid $grey-calc;
+            border-bottom: 1px solid $grey-calc;
+        }
+    }
+    &__total {
+        .button-wrapper {
+            margin-top: 25px;
+        }
+    }
+}
+
+@media all and (min-width: 1200px) and (max-width: 1300px){
+    .estimation-category__total{
+        .estimation-category__item{
+            .component-item-wrapper {
+                display: block;
+            }
+        }
+    }
+}

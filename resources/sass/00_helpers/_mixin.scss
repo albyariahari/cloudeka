@@ -1,0 +1,169 @@
+/*
+ * 'rem' is a Sass mixin that converts pixel values to rem values for whatever property is passed to it.
+ * It returns two lines of code — one of the regular pixel values (for IE), and another with the
+ * converted rem values (for everyone else). Special thanks to Chris Epstein (http://chriseppstein.github.com)
+ * and Martin Bavio (http://martinbavio.com) for the help and code!
+ *
+ * Sample input:
+ * .element {
+ *   @include rem('padding',10px 0 2px 5px);
+ * }
+ *
+ * Sample output:
+ * .element {
+ *   padding: 10px 0 2px 5px;
+ *   padding: 1rem 0 0.2rem 0.5rem;
+ * }
+ *
+ */
+
+// Baseline, measured in pixels
+// The value should be the same as the font-size value for the html element
+// If the html element's font-size is set to 62.5% (of the browser's default font-size of 16px),
+// then the variable below would be 10px.
+$baseline_px: 16px;
+
+@mixin rem($property, $px_values) {
+    // Convert the baseline into rems
+    $baseline_rem: ($baseline_px / 1rem);
+
+    // Print the first line in pixel values
+    #{$property}: $px_values;
+
+    // If there is only one (numeric) value, return the property/value line for it.
+    @if type-of($px_values) == "number" {
+        #{$property}: $px_values / $baseline_rem;
+    }
+
+    // If there is more than one value, create a list and perform equations on each value
+    @else {
+        // Create an empty list that we can dump values into
+        $rem_values: ();
+
+        @each $value in $px_values {
+            // If the value is zero, return 0
+            @if $value == 0 {
+                $rem_values: append($rem_values, $value);
+            }
+
+            // If the value is not zero, convert it from px to rem
+            @else {
+                $rem_values: append($rem_values, ($value / $baseline_rem));
+            }
+        }
+
+        // Return the property and its list of converted values
+        #{$property}: $rem_values;
+    }
+}
+
+// ----
+// Sass (v3.4.12)
+// Compass (v1.0.3)
+// ----
+
+$baseSize: 16px;
+$convertBase: $baseSize;
+
+html {
+    font-size: percentage($baseSize / 16px);
+}
+
+@function convert($value, $convertUnit, $convertBase: $convertBase) {
+    $currentUnit: unit($value);
+    $strippedValue: $value / ($value * 0 + 1);
+    @if not unitless($convertBase) {
+        @if unit($convertBase) != px {
+            @error "Not supported unit '#{unit($convertBase)}' as convert base!";
+        }
+        $convertBase: $convertBase / ($convertBase * 0 + 1);
+    }
+
+    @if $currentUnit == px {
+        @if $convertUnit == "em" {
+            @return 0em + ($strippedValue / $convertBase);
+        } @else if $convertUnit == "%" {
+            @return percentage($strippedValue / $convertBase);
+        }
+    } @else if $currentUnit == em {
+        @if $convertUnit == "px" {
+            @return 0px + ($strippedValue * $convertBase);
+        } @else if $convertUnit == "%" {
+            @return percentage($strippedValue);
+        }
+    } @else if $currentUnit == "%" {
+        @if $convertUnit == "px" {
+            @return 0em + ($strippedValue * $convertBase / 100);
+        } @else if $convertUnit == "em" {
+            @return 0em + ($strippedValue / 100);
+        }
+    }
+    // TODO: Check for pt unit convert
+    @else if $currentUnit == pt {
+        @if $convertUnit == "px" {
+            @return 0px + ($strippedValue * 1.3333) * 0.7;
+        } @else if $convertUnit == "em" {
+            @return 0em + ($strippedValue / 12);
+        } @else if $convertUnit == "%" {
+            @return percentage($strippedValue / 12);
+        }
+    }
+    @error "Can't convert '#{$value}' to unit '#{$convertUnit}'!";
+}
+
+// .example1 {
+//   font-size: convert(18px, '%'); /* converted from pixels */
+// }
+
+// .example2 {
+//   font-size: convert(13pt, 'em'); /* converted from points */
+// }
+
+// .example3 {
+//   font-size: convert(2.5em, 'px'); /* converted from ems */
+// }
+
+// .example4 {
+//   font-size: convert(234%, 'px'); /* converted from percentage */
+// }
+
+@function strip-unit($value) {
+    @return $value / ($value * 0 + 1);
+}
+
+@mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
+    $u1: unit($min-vw);
+    $u2: unit($max-vw);
+    $u3: unit($min-font-size);
+    $u4: unit($max-font-size);
+
+    @if $u1 == $u2 and $u1 == $u3 and $u1 == $u4 {
+        & {
+            font-size: $min-font-size;
+            @media screen and (min-width: $min-vw) {
+                font-size: calc(
+                    #{$min-font-size} + #{strip-unit(
+                            $max-font-size - $min-font-size
+                        )} *
+                        (
+                            (100vw - #{$min-vw}) / #{strip-unit(
+                                    $max-vw - $min-vw
+                                )}
+                        )
+                );
+            }
+            @media screen and (min-width: $max-vw) {
+                font-size: $max-font-size;
+            }
+        }
+    }
+}
+
+// $min_width: 320px;
+// $max_width: 1200px;
+// $min_font: 16px;
+// $max_font: 24px;
+
+// html {
+//   @include fluid-type($min_width, $max_width, $min_font, $max_font);
+// }

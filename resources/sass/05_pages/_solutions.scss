@@ -1,0 +1,411 @@
+.banner-title {
+    @media screen and (max-width: 768px) {
+        // height: 200px;
+    }
+
+    .icon-product {
+        img {
+            /* purgecss ignore current */
+            width: 60%;
+
+            @media screen and (max-width: 768px) {
+                /* purgecss ignore current */
+                height: unset;
+                width: 50%;
+            }
+            @media screen and (max-width: 575px) {
+                /* purgecss ignore current */
+                width: 35%;
+            }
+        }
+    }
+
+    img {
+        /* purgecss ignore current */
+        @media screen and (max-width: 768px) {
+            /* purgecss ignore current */
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    /* purgecss ignore */
+    h1 {
+        /* purgecss ignore current */
+        @media screen and (max-width: 768px) {
+            /* purgecss ignore current */
+            font-size: 40px !important;
+        }
+
+        /* purgecss ignore current */
+        @media screen and (max-width: 575px) {
+            /* purgecss ignore current */
+            font-size: 18px !important;
+            left: 10px !important;
+        }
+    }
+}
+
+.left-section {
+    @media screen and (max-width: 768px) {
+        border-radius: 10px 10px 0 0 !important;
+    }
+
+    &__wrapper {
+        height: 370px;
+        overflow-y: auto;
+
+        /* width */
+        &::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Track */
+        &::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        /* Handle */
+        &::-webkit-scrollbar-thumb {
+            background: #153d70;
+            border-radius: 4px;
+        }
+
+        /* Handle on hover */
+        &::-webkit-scrollbar-thumb:hover {
+            background: #153d78;
+        }
+    }
+}
+
+.right-section {
+    .text-left {
+        @media screen and (max-width: 768px) {
+            flex-wrap: wrap;
+        }
+
+        .rounded-badge {
+            @media screen and (max-width: 575px) {
+                margin-left: 0;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+.sections {
+    &__solutions {
+        .right-section {
+            @media screen and (max-width: 992px) {
+                padding: 40px;
+            }
+
+            .content-section {
+                /* purgecss ignore */
+                .owl-carousel {
+                    /* purgecss ignore current */
+                    .slide-carousel {
+                        /* purgecss ignore current */
+                        height: 370px;
+                        display: flex;
+                        flex-direction: column;
+
+                        .btn {
+                            /* purgecss ignore current */
+                            margin-top: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &--sd-slider {
+        // @media screen and (max-width: 768px) {
+        //     padding: 30px 0 100px !important;
+        // }
+
+        /* purgecss ignore */
+        .owl-carousel.owl-slide .owl-nav {
+            /* purgecss ignore */
+            button.owl-next {
+                /* purgecss ignore current */
+                @media screen and (max-width: 768px) {
+                    /* purgecss ignore current */
+                    bottom: -20%;
+                    top: unset !important;
+                    right: 30%;
+                }
+            }
+
+            /* purgecss ignore */
+            button.owl-prev {
+                /* purgecss ignore current */
+                @media screen and (max-width: 768px) {
+                    /* purgecss ignore current */
+                    bottom: -20%;
+                    top: unset !important;
+                    left: 30%;
+                }
+            }
+        }
+    }
+
+    &--price {
+        padding-bottom: 0 !important;
+
+        @media screen and (max-width: 768px) {
+            padding-bottom: 75px !important;
+        }
+    }
+}
+
+#bannerHome {
+    position: relative;
+    overflow: hidden;
+
+    .carousel-inner {
+        .carousel-item {
+            h1,
+            p {
+                @media screen and (max-width: 768px) {
+                    // color: $dark !important;
+                }
+            }
+
+            img {
+                height: auto;
+            }
+        }
+    }
+
+    .button-wrapper {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    a.left.carousel-control {
+        position: absolute;
+        top: 50%;
+        left: 3%;
+        transform: translate(-50%, -50%);
+        z-index: 99;
+
+        @media screen and (max-width: 768px) {
+            left: 9%;
+        }
+        @media screen and (max-width: 575px) {
+            left: 20%;
+            top: unset;
+            bottom: -30px;
+        }
+    }
+    a.right.carousel-control {
+        position: absolute;
+        top: 50%;
+        right: 3%;
+        transform: translate(-50%, -50%);
+        z-index: 99;
+
+        @media screen and (max-width: 575px) {
+            right: 0;
+            top: unset;
+            bottom: -30px;
+        }
+    }
+}
+
+.select {
+    &__wrapper {
+        background-color: transparent;
+        border: none;
+        color: #fff;
+        padding: 1rem 0;
+        font-weight: $font-bold;
+        font-size: 20px;
+        margin-bottom: 0;
+
+        option {
+            color: $dark;
+        }
+    }
+}
+
+.desktop-overflow {
+    height: unset;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #153d70 transparent;
+
+    @media screen and (min-width: 992px) {
+        height: 350px;
+        overflow-y: auto;
+    }
+
+    /* width */
+    &::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: #153d70;
+        border-radius: 4px;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+        background: #153d78;
+    }
+}
+
+#maps {
+    height: 500px;
+}
+
+.left-section {
+    &--years {
+        @media screen and (max-width: 991px) {
+            padding: 20px 20px 0 !important;
+        }
+
+        ul {
+            li {
+                @media screen and (max-width: 991px) {
+                    width: 100% !important;
+                }
+            }
+        }
+
+        /* purgecss ignore */
+        .owl-carousel.owl-slide .owl-nav {
+            /* purgecss ignore */
+            .owl-next {
+                /* purgecss ignore current */
+                right: 30%;
+                top: -15px;
+            }
+
+            /* purgecss ignore */
+            .owl-prev {
+                /* purgecss ignore current */
+                left: 30%;
+                top: -15px;
+            }
+        }
+    }
+}
+
+/* purgecss ignore */
+.owl-carousel.product-solutions .owl-item img {
+    /* purgecss ignore current */
+    @media screen and (max-width: 575px) {
+        /* purgecss ignore current */
+        width: 30%;
+    }
+}
+
+.tech-partners {
+    .items {
+        // display:flex;
+        // align-items: center;
+        // margin-right: 30px;
+        // width: 150px;
+        height: 150px;
+
+        // @media screen and (max-width:768px){
+        //     margin-bottom: 0;
+        // }
+        @media screen and (max-width: 575px) {
+            // margin-right: 0;
+            // width:100%;
+            text-align: center;
+        }
+
+        img {
+            object-fit: contain;
+            height: 100%;
+        }
+    }
+}
+
+.awards-wrapper {
+    .left-section--years {
+        scrollbar-width: thin;
+        scrollbar-color: #153d70 transparent;
+
+        @media screen and (min-width: 992px) {
+            height: 410px;
+            overflow-y: auto;
+        }
+
+        /* width */
+        &::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Track */
+        &::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        /* Handle */
+        &::-webkit-scrollbar-thumb {
+            background: #153d70;
+            border-radius: 4px;
+        }
+
+        /* Handle on hover */
+        &::-webkit-scrollbar-thumb:hover {
+            background: #153d78;
+        }
+    }
+
+    .right-section--awards {
+        @media screen and (min-width: 992px) {
+            height: 410px;
+            padding: 0;
+        }
+
+        /* purgecss ignore */
+        .owl-carousel.owl-awards {
+            /* purgecss ignore current */
+            padding: 30px 80px;
+
+            @media screen and (max-width: 991px) {
+                /* purgecss ignore current */
+                padding: 0;
+            }
+
+            /* purgecss ignore */
+            .owl-nav button.owl-prev {
+                /* purgecss ignore current */
+                left: 10px;
+
+                @media screen and (max-width: 991px) {
+                    /* purgecss ignore current */
+                    left: -10px;
+                }
+            }
+
+            /* purgecss ignore */
+            .owl-nav button.owl-next {
+                /* purgecss ignore current */
+                right: 10px;
+
+                @media screen and (max-width: 991px) {
+                    /* purgecss ignore current */
+                    right: -10px;
+                }
+            }
+        }
+    }
+}

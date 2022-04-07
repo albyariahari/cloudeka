@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin
+Disallow: /login
+Disallow: /documentation
+
+Sitemap: https://cloudeka.id/sitemap.xml

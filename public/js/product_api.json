@@ -1,0 +1,67 @@
+{
+    "str_code": "success",
+    "message": "",
+    "data": [
+        {
+            "category": "Infrastructure",
+            "category_slug": "infrastructure",
+            "products": [
+                {
+                    "title": "Deka Prime",
+                    "slug": "deka-prime"
+                },
+                {
+                    "title": "Deka Flexi",
+                    "slug": "deka-flexi"
+                },
+                {
+                    "title": "Deka Vault",
+                    "slug": "deka-vault"
+                },
+                {
+                    "title": "Deka Priority",
+                    "slug": "deka-priority"
+                },
+                {
+                    "title": "Deka Box",
+                    "slug": "deka-box"
+                }
+            ]
+        },
+        {
+            "category": "Platform",
+            "category_slug": "platform",
+            "products": [
+                {
+                    "title": "Deka Harbor",
+                    "slug": "deka-harbor"
+                }
+            ]
+        },
+        {
+            "category": "Software",
+            "category_slug": "software",
+            "products":
+                [
+                {
+                    "title": "Deka Sense",
+                    "slug": "deka-sense"
+                },
+                {
+                    "title": "Intelegent Video Analytics",
+                    "slug": "intelegent-video-analytics"
+                }
+            ]
+        },
+        {
+            "category": "Security",
+            "category_slug": "security",
+            "products": [
+                {
+                    "title": "Security Sub-1",
+                    "slug": "security-sub-1"
+                }
+            ]
+        }
+    ]
+}

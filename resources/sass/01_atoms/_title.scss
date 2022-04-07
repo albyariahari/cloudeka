@@ -1,0 +1,68 @@
+.font-size-40 {
+    @include fluid-type(320px, 1920px, 28px, 40px);
+}
+.font-size-35 {
+    @include fluid-type(320px, 1920px, 24.5px, 35px);
+}
+.font-size-30 {
+    @include fluid-type(320px, 1920px, 21px, 30px);
+}
+.font-size-26 {
+    @include fluid-type(320px, 1920px, 18.2px, 26px);
+}
+.font-size-24 {
+    @include fluid-type(320px, 1920px, 16.8px, 24px);
+}
+.font-size-22 {
+    @include fluid-type(320px, 1920px, 15px, 22px);
+}
+.font-size-20 {
+    @include fluid-type(320px, 1920px, 14px, 20px);
+}
+.font-size-18 {
+    @include fluid-type(320px, 1920px, 12.6px, 18px);
+}
+.font-size-16 {
+    @include fluid-type(320px, 1920px, 11.2px, 16px);
+}
+.font-size-15 {
+    @include fluid-type(320px, 1920px, 10.5px, 15px);
+}
+.font-size-14 {
+    @include fluid-type(320px, 1920px, 9.8px, 14px);
+}
+.font-size-13 {
+    @include fluid-type(320px, 1920px, 9px, 13px);
+}
+
+.font-size-12 {
+    @include fluid-type(320px, 1920px, 9px, 12px);
+}
+
+.txt-primary {
+    color: $primary-calc;
+}
+
+.txt-secondary {
+    color: $secondary-calc;
+}
+
+.txt-dark {
+    color: $dark;
+}
+
+.txt-bold {
+    font-weight: $font-bold;
+}
+
+.txt-medium {
+    font-weight: $font-medium;
+}
+
+.txt-semibold {
+    font-weight: $font-semibold;
+}
+
+.txt-light {
+    font-weight: $font-light;
+}
