@@ -19810,8 +19810,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var C_wamp64_www_labelideas_lintasarta_cloud_frontend_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
-/* harmony import */ var C_wamp64_www_labelideas_lintasarta_cloud_frontend_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js */ "./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js");
+/* harmony import */ var C_Users_natha_Documents_GitHub_web_cloudeka_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var C_Users_natha_Documents_GitHub_web_cloudeka_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js */ "./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js");
 /* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.function.name.js */ "./node_modules/core-js/modules/es.function.name.js");
 /* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var core_js_modules_es_json_stringify_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/es.json.stringify.js */ "./node_modules/core-js/modules/es.json.stringify.js");
@@ -20088,7 +20088,7 @@ __webpack_require__.r(__webpack_exports__);
     hasComponent: function hasComponent(items, key) {
       var itemComponent = false;
 
-      var _iterator = (0,C_wamp64_www_labelideas_lintasarta_cloud_frontend_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(items),
+      var _iterator = (0,C_Users_natha_Documents_GitHub_web_cloudeka_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(items),
           _step;
 
       try {
@@ -20107,12 +20107,12 @@ __webpack_require__.r(__webpack_exports__);
     getComponentIndex: function getComponentIndex(items, key) {
       var componentIndex = -1;
 
-      var _iterator2 = (0,C_wamp64_www_labelideas_lintasarta_cloud_frontend_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(items),
+      var _iterator2 = (0,C_Users_natha_Documents_GitHub_web_cloudeka_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(items),
           _step2;
 
       try {
         for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {
-          var _step2$value = (0,C_wamp64_www_labelideas_lintasarta_cloud_frontend_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_0__["default"])(_step2.value, 2),
+          var _step2$value = (0,C_Users_natha_Documents_GitHub_web_cloudeka_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_0__["default"])(_step2.value, 2),
               index = _step2$value[0],
               item = _step2$value[1];
 
@@ -20182,7 +20182,7 @@ __webpack_require__.r(__webpack_exports__);
     getComponentItem: function getComponentItem(items, data_type) {
       var compomentItem = [];
 
-      var _iterator3 = (0,C_wamp64_www_labelideas_lintasarta_cloud_frontend_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(items),
+      var _iterator3 = (0,C_Users_natha_Documents_GitHub_web_cloudeka_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(items),
           _step3;
 
       try {
@@ -20275,7 +20275,7 @@ __webpack_require__.r(__webpack_exports__);
       var selectedIndex = -1;
       console.log(this.modelComponent[product]["flavor"]["list_items"]);
 
-      var _iterator4 = (0,C_wamp64_www_labelideas_lintasarta_cloud_frontend_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(this.modelComponent[product]["flavor"]["list_items"]),
+      var _iterator4 = (0,C_Users_natha_Documents_GitHub_web_cloudeka_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(this.modelComponent[product]["flavor"]["list_items"]),
           _step4;
 
       try {
@@ -20332,7 +20332,7 @@ __webpack_require__.r(__webpack_exports__);
       }
     },
     getComponentValue: function getComponentValue(components, title, withUnit) {
-      var _iterator5 = (0,C_wamp64_www_labelideas_lintasarta_cloud_frontend_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(components),
+      var _iterator5 = (0,C_Users_natha_Documents_GitHub_web_cloudeka_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(components),
           _step5;
 
       try {
@@ -63400,13 +63400,13 @@ exports["default"] = (sfc, props) => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _PrototypeCalculator_vue_vue_type_template_id_3cf7c5a9__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PrototypeCalculator.vue?vue&type=template&id=3cf7c5a9 */ "./resources/js/components/PrototypeCalculator.vue?vue&type=template&id=3cf7c5a9");
 /* harmony import */ var _PrototypeCalculator_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PrototypeCalculator.vue?vue&type=script&lang=js */ "./resources/js/components/PrototypeCalculator.vue?vue&type=script&lang=js");
-/* harmony import */ var C_wamp64_www_labelideas_lintasarta_cloud_frontend_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var C_Users_natha_Documents_GitHub_web_cloudeka_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,C_wamp64_www_labelideas_lintasarta_cloud_frontend_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_PrototypeCalculator_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_PrototypeCalculator_vue_vue_type_template_id_3cf7c5a9__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/PrototypeCalculator.vue"]])
+const __exports__ = /*#__PURE__*/(0,C_Users_natha_Documents_GitHub_web_cloudeka_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_PrototypeCalculator_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_PrototypeCalculator_vue_vue_type_template_id_3cf7c5a9__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/PrototypeCalculator.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -63425,13 +63425,13 @@ if (false) {}
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _BaseQuantity_vue_vue_type_template_id_37e4ad42__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./BaseQuantity.vue?vue&type=template&id=37e4ad42 */ "./resources/js/components/base/BaseQuantity.vue?vue&type=template&id=37e4ad42");
 /* harmony import */ var _BaseQuantity_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BaseQuantity.vue?vue&type=script&lang=js */ "./resources/js/components/base/BaseQuantity.vue?vue&type=script&lang=js");
-/* harmony import */ var C_wamp64_www_labelideas_lintasarta_cloud_frontend_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var C_Users_natha_Documents_GitHub_web_cloudeka_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,C_wamp64_www_labelideas_lintasarta_cloud_frontend_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_BaseQuantity_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_BaseQuantity_vue_vue_type_template_id_37e4ad42__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/base/BaseQuantity.vue"]])
+const __exports__ = /*#__PURE__*/(0,C_Users_natha_Documents_GitHub_web_cloudeka_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_BaseQuantity_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_BaseQuantity_vue_vue_type_template_id_37e4ad42__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/base/BaseQuantity.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -63450,13 +63450,13 @@ if (false) {}
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _BecomePartnerTable_vue_vue_type_template_id_0c446e04__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./BecomePartnerTable.vue?vue&type=template&id=0c446e04 */ "./resources/js/components/become-partner-table/BecomePartnerTable.vue?vue&type=template&id=0c446e04");
 /* harmony import */ var _BecomePartnerTable_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BecomePartnerTable.vue?vue&type=script&lang=js */ "./resources/js/components/become-partner-table/BecomePartnerTable.vue?vue&type=script&lang=js");
-/* harmony import */ var C_wamp64_www_labelideas_lintasarta_cloud_frontend_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var C_Users_natha_Documents_GitHub_web_cloudeka_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,C_wamp64_www_labelideas_lintasarta_cloud_frontend_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_BecomePartnerTable_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_BecomePartnerTable_vue_vue_type_template_id_0c446e04__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/become-partner-table/BecomePartnerTable.vue"]])
+const __exports__ = /*#__PURE__*/(0,C_Users_natha_Documents_GitHub_web_cloudeka_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_BecomePartnerTable_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_BecomePartnerTable_vue_vue_type_template_id_0c446e04__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/become-partner-table/BecomePartnerTable.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -63475,13 +63475,13 @@ if (false) {}
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _BenefitTierTable_vue_vue_type_template_id_66d0d310__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./BenefitTierTable.vue?vue&type=template&id=66d0d310 */ "./resources/js/components/benefit-tier-table/BenefitTierTable.vue?vue&type=template&id=66d0d310");
 /* harmony import */ var _BenefitTierTable_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BenefitTierTable.vue?vue&type=script&lang=js */ "./resources/js/components/benefit-tier-table/BenefitTierTable.vue?vue&type=script&lang=js");
-/* harmony import */ var C_wamp64_www_labelideas_lintasarta_cloud_frontend_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var C_Users_natha_Documents_GitHub_web_cloudeka_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,C_wamp64_www_labelideas_lintasarta_cloud_frontend_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_BenefitTierTable_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_BenefitTierTable_vue_vue_type_template_id_66d0d310__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/benefit-tier-table/BenefitTierTable.vue"]])
+const __exports__ = /*#__PURE__*/(0,C_Users_natha_Documents_GitHub_web_cloudeka_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_BenefitTierTable_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_BenefitTierTable_vue_vue_type_template_id_66d0d310__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/benefit-tier-table/BenefitTierTable.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -63501,7 +63501,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _PriceEstimation_vue_vue_type_template_id_49986254_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PriceEstimation.vue?vue&type=template&id=49986254&scoped=true */ "./resources/js/components/price-calculator/PriceEstimation.vue?vue&type=template&id=49986254&scoped=true");
 /* harmony import */ var _PriceEstimation_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PriceEstimation.vue?vue&type=script&lang=js */ "./resources/js/components/price-calculator/PriceEstimation.vue?vue&type=script&lang=js");
 /* harmony import */ var _PriceEstimation_vue_vue_type_style_index_0_id_49986254_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PriceEstimation.vue?vue&type=style&index=0&id=49986254&scoped=true&lang=css */ "./resources/js/components/price-calculator/PriceEstimation.vue?vue&type=style&index=0&id=49986254&scoped=true&lang=css");
-/* harmony import */ var C_wamp64_www_labelideas_lintasarta_cloud_frontend_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var C_Users_natha_Documents_GitHub_web_cloudeka_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
@@ -63509,7 +63509,7 @@ __webpack_require__.r(__webpack_exports__);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,C_wamp64_www_labelideas_lintasarta_cloud_frontend_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_PriceEstimation_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_PriceEstimation_vue_vue_type_template_id_49986254_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-49986254"],['__file',"resources/js/components/price-calculator/PriceEstimation.vue"]])
+const __exports__ = /*#__PURE__*/(0,C_Users_natha_Documents_GitHub_web_cloudeka_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_PriceEstimation_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_PriceEstimation_vue_vue_type_template_id_49986254_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-49986254"],['__file',"resources/js/components/price-calculator/PriceEstimation.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -63528,13 +63528,13 @@ if (false) {}
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _TheCalculator_vue_vue_type_template_id_1e9231f5__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TheCalculator.vue?vue&type=template&id=1e9231f5 */ "./resources/js/components/price-calculator/TheCalculator.vue?vue&type=template&id=1e9231f5");
 /* harmony import */ var _TheCalculator_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TheCalculator.vue?vue&type=script&lang=js */ "./resources/js/components/price-calculator/TheCalculator.vue?vue&type=script&lang=js");
-/* harmony import */ var C_wamp64_www_labelideas_lintasarta_cloud_frontend_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var C_Users_natha_Documents_GitHub_web_cloudeka_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,C_wamp64_www_labelideas_lintasarta_cloud_frontend_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_TheCalculator_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_TheCalculator_vue_vue_type_template_id_1e9231f5__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/price-calculator/TheCalculator.vue"]])
+const __exports__ = /*#__PURE__*/(0,C_Users_natha_Documents_GitHub_web_cloudeka_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_TheCalculator_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_TheCalculator_vue_vue_type_template_id_1e9231f5__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/price-calculator/TheCalculator.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -67621,7 +67621,7 @@ function _unsupportedIterableToArray(o, minLen) {
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse('{"_args":[["axios@0.21.4","C:\\\\wamp64\\\\www\\\\_labelideas\\\\lintasarta-cloud\\\\frontend"]],"_development":true,"_from":"axios@0.21.4","_id":"axios@0.21.4","_inBundle":false,"_integrity":"sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==","_location":"/axios","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"axios@0.21.4","name":"axios","escapedName":"axios","rawSpec":"0.21.4","saveSpec":null,"fetchSpec":"0.21.4"},"_requiredBy":["#DEV:/"],"_resolved":"https://registry.npmjs.org/axios/-/axios-0.21.4.tgz","_spec":"0.21.4","_where":"C:\\\\wamp64\\\\www\\\\_labelideas\\\\lintasarta-cloud\\\\frontend","author":{"name":"Matt Zabriskie"},"browser":{"./lib/adapters/http.js":"./lib/adapters/xhr.js"},"bugs":{"url":"https://github.com/axios/axios/issues"},"bundlesize":[{"path":"./dist/axios.min.js","threshold":"5kB"}],"dependencies":{"follow-redirects":"^1.14.0"},"description":"Promise based HTTP client for the browser and node.js","devDependencies":{"coveralls":"^3.0.0","es6-promise":"^4.2.4","grunt":"^1.3.0","grunt-banner":"^0.6.0","grunt-cli":"^1.2.0","grunt-contrib-clean":"^1.1.0","grunt-contrib-watch":"^1.0.0","grunt-eslint":"^23.0.0","grunt-karma":"^4.0.0","grunt-mocha-test":"^0.13.3","grunt-ts":"^6.0.0-beta.19","grunt-webpack":"^4.0.2","istanbul-instrumenter-loader":"^1.0.0","jasmine-core":"^2.4.1","karma":"^6.3.2","karma-chrome-launcher":"^3.1.0","karma-firefox-launcher":"^2.1.0","karma-jasmine":"^1.1.1","karma-jasmine-ajax":"^0.1.13","karma-safari-launcher":"^1.0.0","karma-sauce-launcher":"^4.3.6","karma-sinon":"^1.0.5","karma-sourcemap-loader":"^0.3.8","karma-webpack":"^4.0.2","load-grunt-tasks":"^3.5.2","minimist":"^1.2.0","mocha":"^8.2.1","sinon":"^4.5.0","terser-webpack-plugin":"^4.2.3","typescript":"^4.0.5","url-search-params":"^0.10.0","webpack":"^4.44.2","webpack-dev-server":"^3.11.0"},"homepage":"https://axios-http.com","jsdelivr":"dist/axios.min.js","keywords":["xhr","http","ajax","promise","node"],"license":"MIT","main":"index.js","name":"axios","repository":{"type":"git","url":"git+https://github.com/axios/axios.git"},"scripts":{"build":"NODE_ENV=production grunt build","coveralls":"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js","examples":"node ./examples/server.js","fix":"eslint --fix lib/**/*.js","postversion":"git push && git push --tags","preversion":"npm test","start":"node ./sandbox/server.js","test":"grunt test","version":"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json"},"typings":"./index.d.ts","unpkg":"dist/axios.min.js","version":"0.21.4"}');
+module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"Promise based HTTP client for the browser and node.js","main":"index.js","scripts":{"test":"grunt test","start":"node ./sandbox/server.js","build":"NODE_ENV=production grunt build","preversion":"npm test","version":"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json","postversion":"git push && git push --tags","examples":"node ./examples/server.js","coveralls":"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js","fix":"eslint --fix lib/**/*.js"},"repository":{"type":"git","url":"https://github.com/axios/axios.git"},"keywords":["xhr","http","ajax","promise","node"],"author":"Matt Zabriskie","license":"MIT","bugs":{"url":"https://github.com/axios/axios/issues"},"homepage":"https://axios-http.com","devDependencies":{"coveralls":"^3.0.0","es6-promise":"^4.2.4","grunt":"^1.3.0","grunt-banner":"^0.6.0","grunt-cli":"^1.2.0","grunt-contrib-clean":"^1.1.0","grunt-contrib-watch":"^1.0.0","grunt-eslint":"^23.0.0","grunt-karma":"^4.0.0","grunt-mocha-test":"^0.13.3","grunt-ts":"^6.0.0-beta.19","grunt-webpack":"^4.0.2","istanbul-instrumenter-loader":"^1.0.0","jasmine-core":"^2.4.1","karma":"^6.3.2","karma-chrome-launcher":"^3.1.0","karma-firefox-launcher":"^2.1.0","karma-jasmine":"^1.1.1","karma-jasmine-ajax":"^0.1.13","karma-safari-launcher":"^1.0.0","karma-sauce-launcher":"^4.3.6","karma-sinon":"^1.0.5","karma-sourcemap-loader":"^0.3.8","karma-webpack":"^4.0.2","load-grunt-tasks":"^3.5.2","minimist":"^1.2.0","mocha":"^8.2.1","sinon":"^4.5.0","terser-webpack-plugin":"^4.2.3","typescript":"^4.0.5","url-search-params":"^0.10.0","webpack":"^4.44.2","webpack-dev-server":"^3.11.0"},"browser":{"./lib/adapters/http.js":"./lib/adapters/xhr.js"},"jsdelivr":"dist/axios.min.js","unpkg":"dist/axios.min.js","typings":"./index.d.ts","dependencies":{"follow-redirects":"^1.14.0"},"bundlesize":[{"path":"./dist/axios.min.js","threshold":"5kB"}]}');
 
 /***/ })
 
