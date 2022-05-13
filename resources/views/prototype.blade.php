@@ -35,7 +35,7 @@
     <section class="calculator-banner">
         <div class="container-fluid px-0">
             <div class="banner-title">
-                <img src="{{ cloudekaBucketLocalUrl($banner->image_1) }}" class="w-100" alt="Why Lintasarta cloud">
+                <img src="{{ cloudekaBucketLocalUrl($banner->image_1) }}" class="w-100" alt="Why Lintasarta cloud cloudeka ">
                 <img src="{{ cloudekaBucketLocalUrl($banner->image_2) }}" class="img-fluid document-svg" alt="Icon">
                 <div class="text">
                     <h2 class="light-color" data-aos="fade-up" data-aos-duration="700">{{ $banner->title }}</h2>

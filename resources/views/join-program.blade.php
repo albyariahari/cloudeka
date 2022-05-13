@@ -38,7 +38,7 @@
     <!-- Banner -->
     <div class="container-fluid px-0">
         <div class="banner-title">
-            <img src="{{ cloudekaBucketLocalUrl($banner->image_1) }}" class="w-100" alt="Join Program Banner" />
+            <img src="{{ cloudekaBucketLocalUrl($banner->image_1) }}" class="w-100" alt="Join Program cloudeka indonesian cloud solution Banner" />
             <div class="icon-product icon-product--page">
 				<img src="/imgs/contact-us.png" alt="Join Program Contact Us" class="img-fluid" />
 			</div>

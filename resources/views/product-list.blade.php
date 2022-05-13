@@ -28,7 +28,7 @@
                         <h1 class="light-color" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">{{ $slideshow->translate($lang)->title }}</h1>
                     </div>
 
-                    <img src="{{ cloudekaBucketLocalUrl($slideshow->image) }}" class="d-block w-100" alt="Banner">
+                    <img src="{{ cloudekaBucketLocalUrl($slideshow->image) }}" class="d-block w-100" alt="Banner product list cloudeka">
                     <div class="carousel-caption">
                         <h1 class="light-color android-none" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">{{ $slideshow->translate($lang)->title }}</h1>
                         <div class="font-20" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">

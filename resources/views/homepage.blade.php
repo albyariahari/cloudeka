@@ -148,11 +148,13 @@
         <div class="container-fluid">
             <div class="row" data-aos="fade-up" data-aos-duration="500">
                 <div class="col-12 col-lg-3 offset-lg-1 pb-4 pt-5 pt-lg-0">
-                    <h2 class="subtitle dark-color">{!! $whyChoose->title !!}</h2>
+                    <h1 class="subtitle dark-color">{!! $whyChoose->title !!}</h1>
                 </div>
                 <div class="col-12 col-lg-7">
                     <div class="description dark-color">
-                        {!! $whyChoose->description !!}
+                        <p>
+                            {!! $whyChoose->description !!}
+                        </p>
                     </div>
                 </div>
             </div>
@@ -166,9 +168,9 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-lg-3 offset-lg-1 pb-4 d-flex align-items-end d-lg-block mb-4" data-aos="fade-up" data-aos-duration="500">
-                    <h2 class="subtitle light-color mb-0">
+                    <h1 class="subtitle light-color mb-0">
                         {!! $products['title'] !!}
-                    </h2>
+                    </h1>
                     <a href="#" class="ml-auto font-12 text-shadow text-white mobile-only">SEE ALL PRODUCTS</a>
                 </div>
                 <div class="col-12 col-lg-8">
@@ -179,7 +181,7 @@
                             <div class="navs">
                                 <div class="nav-button d-flex">
                                     <span class="my-md-auto mr-auto">{!! $product->translate($lang)->title !!}</span>
-                                    <img src="{{ cloudekaBucketLocalUrl($product->translate($lang)->logo_1) }}" alt="Lintasarta cloud" width="44" height="40" class="mt-auto my-md-auto ml-md-4" loading="lazy">
+                                    <img src="{{ cloudekaBucketLocalUrl($product->translate($lang)->logo_1) }}" alt="Lintasarta cloud indonesian cloud partners" width="44" height="40" class="mt-auto my-md-auto ml-md-4" loading="lazy">
                                     <!-- <picture class="d-flex">
                                         <source media="(max-width: 991px)" srcset="{{ cloudekaBucketLocalUrl($product->translate($lang)->logo_1) }}">
                                         <source media="(min-width: 992px)" srcset="{{ cloudekaBucketLocalUrl($product->translate($lang)->logo_1) }}">
@@ -229,9 +231,9 @@
         <div class="container-fluid" id="services">
             <div class="row">
                 <div class="col-12 col-lg-3 offset-lg-1 pb-4 d-flex align-items-end d-lg-block mb-4" data-aos="fade-up" data-aos-duration="500">
-                    <h2 class="subtitle light-color mb-0">
+                    <h1 class="subtitle light-color mb-0">
                         {!!$solutions['title']!!}
-                    </h2>
+                    </h1>
                     <a href="#" class="ml-auto font-12 text-shadow text-white mobile-only">SEE ALL SOLUTIONS</a>
                 </div>
                 <div class="col-12 col-lg-8">
@@ -295,7 +297,7 @@
         <div class="container-fluid">
             <div class="row" data-aos="fade-up" data-aos-duration="500">
                 <div class="col-lg-3 offset-lg-1">
-                    <h2 class="subtitle dark-color">{!! $successStories['title'] !!}</h2>
+                    <h1 class="subtitle dark-color">{!! $successStories['title'] !!}</h1>
                 </div>
                 <div class="col-lg-7">
                     <p class="dark-color desktop-only">{{$successStories['subtitle']}}</p>
@@ -321,7 +323,7 @@
                             </picture> -->
                             <div class="w-50 pr-md-5">
                                 <div class="d-flex">
-                                    <h3>{!! $story->translate($lang)->subtitle !!}</h3>
+                                    <h2>{!! $story->translate($lang)->subtitle !!}</h2>
                                     <img src="{{ cloudekaBucketLocalUrl($story->translate($lang)->image_1) }}" height="40" class="w-auto mobile-only ml-auto" loading="lazy">
                                     <!-- <picture>
                                         <source media="(max-width: 991px)" srcset="{{ cloudekaBucketLocalUrl($story->translate($lang)->image_1) }}">
@@ -375,7 +377,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-lg-11 offset-lg-1 pb-5 d-flex">
-                    <h2 class="subtitle dark-color mb-0" data-aos="fade-right" data-aos-duration="500">{!! $news['title'] !!}</h2>
+                    <h1 class="subtitle dark-color mb-0" data-aos="fade-right" data-aos-duration="500">{!! $news['title'] !!}</h1>
                     <a href="{{route('news')}}" class="more-link ml-auto font-20">
                         <img src="{{ '/imgs/news/see-more.svg' }}" width="30" class="mr-2">
                         See More
@@ -394,7 +396,7 @@
                                     @endforeach
                                 </div>
                                 <div class="img-wrapper">
-                                    <img src="{{cloudekaBucketLocalUrl($news['bigSection']->translate($lang)->outer_thumbnail)}}" alt="">
+                                    <img src="{{cloudekaBucketLocalUrl($news['bigSection']->translate($lang)->outer_thumbnail)}}" alt="news and events in cloudeka">
                                 </div>
                                 <div class="content-wrapper">
                                     <strong class="date">{{\Carbon\Carbon::parse($news['bigSection']->created_at)->format('d/m/Y')}}</strong>
@@ -411,7 +413,7 @@
                                 <li data-aos="fade-left" data-aos-duration="500"  data-aos-delay="100">
                                     <div class="img-wrapper">
                                         <a href="{{route('news.detail',[$new->Category->translate($lang)->slug,$new->translate($lang)->slug])}}">
-                                            <img src="{{cloudekaBucketLocalUrl($new->translate($lang)->outer_thumbnail)}}" alt="" />
+                                            <img src="{{cloudekaBucketLocalUrl($new->translate($lang)->outer_thumbnail)}}" alt="thumbnail news and events" />
                                         </a>
                                     </div>
                                     <div class="content-wrapper">
@@ -439,7 +441,7 @@
         <div class="container-fluid">
             <div class="row" data-aos="fade-up" data-aos-duration="500">
                 <div class="col-12 col-lg-3 offset-lg-1 pb-2">
-                    <h2 class="subtitle dark-color">{!! $clients['title'] !!}</h2>
+                    <h1 class="subtitle dark-color">{!! $clients['title'] !!}</h1>
                 </div>
                 <div class="col-12 col-lg-7">
                     <div class="d-xl-flex w-100 align-items-center justify-content-between owl-carousel owl-theme owl-clients">
@@ -462,7 +464,7 @@
         <div class="container-fluid">
             <div class="row" data-aos="fade-up" data-aos-duration="500">
                 <div class="col-12 col-lg-3 offset-lg-1 pb-2">
-                    <h2 class="subtitle dark-color">{!! $partners['title'] !!}</h2>
+                    <h1 class="subtitle dark-color">{!! $partners['title'] !!}</h1>
                 </div>
                 <div class="col-12 col-lg-7">
                     <div class="d-xl-flex w-100 align-items-center justify-content-between owl-carousel owl-theme owl-partners">
@@ -488,10 +490,10 @@
             <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="500">
                 <div class="col-12 col-lg-10">
                     <div class="card text-white become--partner--card">
-                        <img src="{!! cloudekaBucketLocalUrl($bottomBanner->image_1) !!}">
+                        <img src="{!! cloudekaBucketLocalUrl($bottomBanner->image_1) !!}" alt="our partners in cloudeka">
                         <div class="card-body">
                             <div class="become--partner--card--wrapper">
-								<h2 class="mb-3">{!! $bottomBanner->title !!}</h2>
+								<h1 class="mb-3">{!! $bottomBanner->title !!}</h1>
 								{!! $bottomBanner->description !!}
                                 <a href="{!! $bottomBanner->link_url_1 !!}" class="btn become--partner--btn mb-2 mr-2">{!! $bottomBanner->link_title_1 !!}</a>
                                 <a href="{!! $bottomBanner->link_url_2 !!}" class="btn become--partner--btn mb-2">{!! $bottomBanner->link_title_2 !!}</a>
@@ -519,7 +521,7 @@
                         <div class="row">
                             <div class="col-lg-7 modal-home__left">
                                 <div class="bg-image">
-                                    <img src="{{ cloudekaBucketLocalUrl($promotion->translate($lang)->image) }}" alt="" class="img-fluid">
+                                    <img src="{{ cloudekaBucketLocalUrl($promotion->translate($lang)->image) }}" alt="cloudeka promotion" class="img-fluid">
                                     <!-- <picture>
                                         <source media="(max-width: 991px)" srcset="{{ ($promotion->translate($lang)->image) }}">
                                         <source media="(min-width: 992px)" srcset="{{ ($promotion->translate($lang)->image) }}">

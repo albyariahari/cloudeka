@@ -9,7 +9,7 @@
     <!-- Banner -->
     <div class="container-fluid banner">
         <div class="banner-title">
-            <img src="/imgs/solutions/solution-detail.jpg" class="w-100">
+            <img src="/imgs/solutions/solution-detail.jpg" alt="Manfacture cloudeka solution" class="w-100">
             <h1>Manfacture</h1>
             <div class="icon-product"><i class="icon-manufacture my-auto"></i></div>
         </div>

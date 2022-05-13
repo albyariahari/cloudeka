@@ -9,7 +9,7 @@
     <!-- Banner -->
     <div class="container-fluid banner">
         <div class="banner-title">
-            <img src="/imgs/products/banners/intelligent-video-analytics.png" class="w-100">
+            <img src="/imgs/products/banners/intelligent-video-analytics.png" alt="Intelligent Video Analytics" class="w-100">
             <h1>Intelligent Video Analytics</h1>
             <div class="icon-product"><img src="/imgs/solutions/svg/solutions/products/cloud-premium-2.svg" class="img-fluid"/></div>
         </div>

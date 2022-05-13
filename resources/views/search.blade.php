@@ -17,7 +17,7 @@
     <!-- Banner -->
     <div class="container-fluid px-0">
         <div class="banner-title">
-            <img src="{{env('APP_URL').'/storage/'.$banner->image_1}}" class="w-100" alt="{{$metadata->meta_title}}">
+            <img src="{{env('APP_URL').'/storage/'.$banner->image_1}}" class="w-100" alt="{{$metadata->meta_title}} banner image search">
             <div class="text">
                 <h2 class="light-color mb-0" data-aos="fade-up" data-aos-duration="500">{!! $banner->title !!}</h2>
                 <!-- <p class="light-color d-none d-lg-block" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">{!! $banner->subtitle !!}</p> -->

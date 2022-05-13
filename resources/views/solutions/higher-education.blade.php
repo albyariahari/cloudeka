@@ -9,7 +9,7 @@
     <!-- Banner -->
     <div class="container-fluid banner">
         <div class="banner-title">
-            <img src="/imgs/solutions/solution-detail.jpg" class="w-100">
+            <img src="/imgs/solutions/solution-detail.jpg" alt="Higher Education" class="w-100">
             <h1>Higher Education</h1>
             <div class="icon-product"><i class="icon-education my-auto"></i></div>
         </div>

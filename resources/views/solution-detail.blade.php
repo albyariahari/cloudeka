@@ -15,9 +15,9 @@
     <!-- Banner -->
     <div class="container-fluid banner">
         <div class="banner-title">
-            <img src="{{ cloudekaBucketLocalUrl($solutionTranslate->images)}}" class="w-100" alt="Banner">
+            <img src="{{ cloudekaBucketLocalUrl($solutionTranslate->images)}}" class="w-100" alt="Banner image solution detail cloudeka">
             <h1 data-aos="fade-up" data-aos-duration="500">{{$solutionTranslate->title}} Solution</h1>
-            <div class="icon-product"><img src="{{ cloudekaBucketLocalUrl($solutionTranslate->logo_1) }}" class="img-fluid" style="max-height: 60px;" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" alt="Icon banner"></div>
+            <div class="icon-product"><img src="{{ cloudekaBucketLocalUrl($solutionTranslate->logo_1) }}" alt="solution detail cloudeka" class="img-fluid" style="max-height: 60px;" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" alt="Icon banner"></div>
         </div>
     </div>
 
@@ -51,7 +51,7 @@
                         @foreach ($solutionTranslate->Solution->UseCases()->where('status', 1)->get() as $key => $UseCase)
                             <div class="slide-logo-light slide-logo-light--use-cases" data-aos="fade-up" data-aos-duration="500" data-aos-delay="{{ $key + 1 }}00">
                                 <div class="img-wrapper mb-4 mt-0">
-                                    <img src="{{ cloudekaBucketLocalUrl($UseCase->Client->logo) }}" class="w-auto m-auto" alt="Carousel Icon" loading="lazy">
+                                    <img src="{{ cloudekaBucketLocalUrl($UseCase->Client->logo) }}" class="w-auto m-auto" alt="Carousel Icon solution detail cloudeka" loading="lazy">
                                 </div>
                                 <div class="description">
                                     {!! $UseCase->translate($lang)->description !!}
@@ -81,7 +81,7 @@
                             <div class="d-flex align-items-center mb-4 box-icon">
                                 <div class="wrapper">
                                     <div class="icon">
-                                        <img width="70" height="70" src="{{ cloudekaBucketLocalUrl($product->translate($lang)->logo_1) }}" class="img-fluid" alt="Icon benefit" loading="lazy">
+                                        <img width="70" height="70" src="{{ cloudekaBucketLocalUrl($product->translate($lang)->logo_1) }}" class="img-fluid" alt="Icon benefit logo solution detail cloudeka" loading="lazy">
                                     </div>
                                 </div>
                                 <h4>{!! $product->translate($lang)->title !!}</h4>
@@ -107,7 +107,7 @@
             <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="500">
                 <div class="col-12 col-lg-10">
                     <div class="card text-white bg-solutions become--partner--card">
-                        <img src="{{ cloudekaBucketLocalUrl($solutionTranslate->bottom_image) }}">
+                        <img src="{{ cloudekaBucketLocalUrl($solutionTranslate->bottom_image) }}" alt="solution detail cloudeka">
                         <div class="card-body">
                             <div class="become--partner--card--wrapper" >   
                                 @if (!empty($solutionTranslate->bottom_title))
