@@ -47,6 +47,9 @@ use App\Services\SolutionInterestService;
 use App\Services\JoinProgramService;
 use App\Services\Benefit\BenefitLevelService;
 use App\Services\Benefit\BenefitTypeService;
+use DaveJamesMiller\Breadcrumbs\Facades\Breadcrumbs;
+
+use App\Http\Controllers\BreadcrumbTrail;
 
 class HomeController extends Controller {
     private $__lang;

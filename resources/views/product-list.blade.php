@@ -40,6 +40,7 @@
                 @endforeach
             </div>
         </div>
+        {{ Breadcrumbs::render('products') }}
     </div>
 
     

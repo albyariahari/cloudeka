@@ -19,7 +19,7 @@
         <h1 data-aos="fade-up" data-aos-duration="500">{{$productTranslate->title}}</h1>
         <div class="icon-product"><img src="{{ cloudekaBucketLocalUrl($productTranslate->logo_1) }}" class="img-fluid" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" alt="Icon"/></div>
     </div>
-
+    {{ Breadcrumbs::render('products.show',$productTranslate) }}
 </div>
 
 <!-- Section description -->

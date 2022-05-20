@@ -19,6 +19,7 @@
                 <h2 class="light-color mb-0" data-aos="fade-up" data-aos-duration="500">{{$banner->title}}</h2>
             </div>
         </div>
+        {{ Breadcrumbs::render('news.detail',$banner) }}
     </div>
     <!-- /Banner -->
 

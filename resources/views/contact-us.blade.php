@@ -37,6 +37,7 @@
                 <p class="light-color d-none d-lg-block" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">{!! $banner->subtitle !!}</p>
             </div>
         </div>
+        {{ Breadcrumbs::render('contact-us') }}
     </div>
     <!-- /Banner -->
 	

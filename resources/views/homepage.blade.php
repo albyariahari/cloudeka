@@ -141,7 +141,9 @@
                 </a>
             </div>
         </div>
+        {{ Breadcrumbs::render('home') }}
     </div>
+
 
     <!-- Section why -->
     <section class="sections why">

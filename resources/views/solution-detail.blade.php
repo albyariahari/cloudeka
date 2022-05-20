@@ -19,6 +19,7 @@
             <h1 data-aos="fade-up" data-aos-duration="500">{{$solutionTranslate->title}} Solution</h1>
             <div class="icon-product"><img src="{{ cloudekaBucketLocalUrl($solutionTranslate->logo_1) }}" alt="solution detail cloudeka" class="img-fluid" style="max-height: 60px;" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" alt="Icon banner"></div>
         </div>
+        {{ Breadcrumbs::render('solutions.show',$solutionTranslate) }}
     </div>
 
     <!-- Section description -->
