@@ -1,0 +1,838 @@
+{
+    "str_code": "success",
+    "message": "",
+    "data": {
+        "deka-prime": {
+            "product_name": "Deka Prime",
+            "packages": null,
+            "calculator_component": [
+                {
+                    "name": "Server Name",
+                    "slug": "server-name",
+                    "unit": null,
+                    "price": {
+                        "pay-as-you-use": 0,
+                        "monthly": 0,
+                        "1-year": 0,
+                        "3-year": 0,
+                        "5-year": 0
+                    },
+                    "data_type": "server_name",
+                    "data_group": null,
+                    "hint": null,
+                    "rule_min_value": null,
+                    "rule_max_value": null,
+                    "rule_muse_be_even": false
+                },
+                {
+                    "name": "vCPU",
+                    "slug": "vcpu",
+                    "unit": "vCPU",
+                    "price": {
+                        "pay-as-you-use": 285000,
+                        "monthly": 285000,
+                        "1-year": 285000,
+                        "3-year": 285000,
+                        "5-year": 285000
+                    },
+                    "data_type": "integer",
+                    "data_group": null,
+                    "hint": "Each vCPU speed is 2 GHz",
+                    "rule_min_value": 1,
+                    "rule_max_value": 32,
+                    "rule_muse_be_even": false,
+                    "rule_editable": true
+                },
+                {
+                    "name": "vRAM",
+                    "slug": "vram",
+                    "unit": "GB",
+                    "price": {
+                        "pay-as-you-use": 150000,
+                        "monthly": 150000,
+                        "1-year": 150000,
+                        "3-year": 150000,
+                        "5-year": 150000
+                    },
+                    "data_type": "integer",
+                    "data_group": null,
+                    "hint": "Each vCPU speed is 2 GHz",
+                    "rule_min_value": 1,
+                    "rule_max_value": 128,
+                    "rule_muse_be_even": false,
+                    "rule_editable": true
+                },
+                {
+                    "name": "Storage Type",
+                    "slug": "storage-type",
+                    "unit": null,
+                    "price_per_unit": 0,
+                    "data_type": "list-with-child",
+                    "data_group": "storage",
+                    "hint": null,
+                    "rule_min_value": null,
+                    "rule_max_value": null,
+                    "rule_muse_be_even": false,
+                    "list_items": [
+                        {
+                            "name": "SSD Standard",
+                            "slug": "ssd-standard",
+                            "target": "storage-capacity-ssd-standard"
+                        },
+                        {
+                            "name": "SSD Premium",
+                            "slug": "ssd-premium",
+                            "target": "storage-capacity-ssd-premium"
+                        },
+                        {
+                            "name": "SSD Priority",
+                            "slug": "ssd-priority",
+                            "target": "storage-capacity-ssd-priority"
+                        }
+                    ],
+                    "data_child_slug_prefix": "storage-capacity" 
+                },
+                {
+                    "name": "Storage Capacity",
+                    "slug": "storage-capacity-ssd-standard",
+                    "unit": "GB",
+                    "price": {
+                        "pay-as-you-use": 2650,
+                        "monthly": 2650,
+                        "1-year": 2650,
+                        "3-year": 2650,
+                        "5-year": 2650
+                    },
+                    "data_type": "integer",
+                    "data_group": "list-storage-type",
+                    "hint": "Include root disk (estimate 20 GB)",
+                    "rule_min_value": 20,
+                    "rule_max_value": 10000,
+                    "rule_muse_be_even": false,
+                    "rule_editable": true
+                },
+                {
+                    "name": "Storage Capacity",
+                    "slug": "storage-capacity-ssd-premium",
+                    "unit": "GB",
+                    "price": {
+                        "pay-as-you-use": 3750,
+                        "monthly": 3750,
+                        "1-year": 3750,
+                        "3-year": 3750,
+                        "5-year": 3750
+                    },
+                    "data_type": "integer",
+                    "data_group": "list-storage-type",
+                    "hint": "Include root disk (estimate 20 GB)",
+                    "rule_min_value": 20,
+                    "rule_max_value": 10000,
+                    "rule_muse_be_even": false,
+                    "rule_editable": true
+                },
+                {
+                    "name": "Storage Capacity",
+                    "slug": "storage-capacity-ssd-priority",
+                    "unit": "GB",
+                    "price": {
+                        "pay-as-you-use": 4500,
+                        "monthly": 4500,
+                        "1-year": 4500,
+                        "3-year": 4500,
+                        "5-year": 4500
+                    },
+                    "data_type": "integer",
+                    "data_group": "list-storage-type",
+                    "hint": "Include root disk (estimate 20 GB)",
+                    "rule_min_value": 20,
+                    "rule_max_value": 10000,
+                    "rule_muse_be_even": false,
+                    "rule_editable": true
+                },
+                {
+                    "name": "Public IP",
+                    "slug": "public-ip",
+                    "unit": null,
+                    "price": {
+                        "pay-as-you-use": 60000,
+                        "monthly": 60000,
+                        "1-year": 60000,
+                        "3-year": 60000,
+                        "5-year": 60000
+                    },
+                    "data_type": "boolean",
+                    "data_group": null,
+                    "hint": null,
+                    "rule_min_value": null,
+                    "rule_max_value": null,
+                    "rule_muse_be_even": false,
+                    "rule_editable": true
+                },
+                {
+                    "name": "OS Type",
+                    "slug": "os-type",
+                    "unit": null,
+                    "price": {
+                        "pay-as-you-use": 0,
+                        "monthly": 0,
+                        "1-year": 0,
+                        "3-year": 0,
+                        "5-year": 0
+                    },
+                    "data_type": "list-full",
+                    "data_group": null,
+                    "hint": null,
+                    "rule_min_value": null,
+                    "rule_max_value": null,
+                    "rule_muse_be_even": false,
+                    "rule_editable": true,
+                    "list_items": [
+                        {
+                            "name": "CentOS 6.10 Open Source",
+                            "slug": "centos-6-10-open-source",
+                            "unit": null,
+                            "price": {
+                                "pay-as-you-use": 0,
+                                "monthly": 0,
+                                "1-year": 0,
+                                "3-year": 0,
+                                "5-year": 0
+                            },
+                            "data_type": "list-item",
+                            "data_group": "os-type",
+                            "hint": null,
+                            "rule_min_value": null,
+                            "rule_max_value": null,
+                            "rule_muse_be_even": false
+                        },
+                        {
+                            "name": "Windows Server Standard",
+                            "slug": "windows-server-standard",
+                            "unit": null,
+                            "price": {
+                                "pay-as-you-use": 360000,
+                                "monthly": 360000,
+                                "1-year": 360000,
+                                "3-year": 360000,
+                                "5-year": 360000
+                            },
+                            "data_type": "list-item",
+                            "data_group": "os-type",
+                            "hint": null,
+                            "rule_min_value": null,
+                            "rule_max_value": null,
+                            "rule_muse_be_even": false
+                        },
+                        {
+                            "name": "Windows Server DC",
+                            "slug": "windows-server-dc",
+                            "unit": null,
+                            "price": {
+                                "pay-as-you-use": 540000,
+                                "monthly": 540000,
+                                "1-year": 540000,
+                                "3-year": 540000,
+                                "5-year": 540000
+                            },
+                            "data_type": "list-item",
+                            "data_group": "os-type",
+                            "hint": null,
+                            "rule_min_value": null,
+                            "rule_max_value": null,
+                            "rule_muse_be_even": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Monitoring Service",
+                    "slug": "monitoring-service",
+                    "unit": null,
+                    "price": {
+                        "pay-as-you-use": 0,
+                        "monthly": 0,
+                        "1-year": 0,
+                        "3-year": 0,
+                        "5-year": 0
+                    },
+                    "data_type": "list-full",
+                    "data_group": null,
+                    "hint": null,
+                    "rule_min_value": null,
+                    "rule_max_value": null,
+                    "rule_muse_be_even": false,
+                    "rule_editable": true,
+                    "list_items": [
+                        {
+                            "name": "None",
+                            "slug": "none",
+                            "unit": null,
+                            "price": {
+                                "pay-as-you-use": 0,
+                                "monthly": 0,
+                                "1-year": 0,
+                                "3-year": 0,
+                                "5-year": 0
+                            },
+                            "data_type": "list-item",
+                            "data_group": "monitoring-service",
+                            "hint": null,
+                            "rule_min_value": null,
+                            "rule_max_value": null,
+                            "rule_muse_be_even": false
+                        },
+                        {
+                            "name": "Basic",
+                            "slug": "basic",
+                            "unit": null,
+                            "price": {
+                                "pay-as-you-use": 175000,
+                                "monthly": 175000,
+                                "1-year": 175000,
+                                "3-year": 175000,
+                                "5-year": 175000
+                            },
+                            "data_type": "list-item",
+                            "data_group": "monitoring-service",
+                            "hint": null,
+                            "rule_min_value": null,
+                            "rule_max_value": null,
+                            "rule_muse_be_even": false
+                        },
+                        {
+                            "name": "extra",
+                            "slug": "extra",
+                            "unit": null,
+                            "price": {
+                                "pay-as-you-use": 425000,
+                                "monthly": 425000,
+                                "1-year": 425000,
+                                "3-year": 425000,
+                                "5-year": 425000
+                            },
+                            "data_type": "list-item",
+                            "data_group": "monitoring-service",
+                            "hint": null,
+                            "rule_min_value": null,
+                            "rule_max_value": null,
+                            "rule_muse_be_even": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Next Gen Firewall",
+                    "slug": "next-gen-firewall",
+                    "unit": null,
+                    "price": {
+                        "pay-as-you-use": 0,
+                        "monthly": 0,
+                        "1-year": 0,
+                        "3-year": 0,
+                        "5-year": 0
+                    },
+                    "data_type": "list-full",
+                    "data_group": null,
+                    "hint": null,
+                    "rule_min_value": null,
+                    "rule_max_value": null,
+                    "rule_muse_be_even": false,
+                    "rule_editable": true,
+                    "list_items": [
+                        {
+                            "name": "None",
+                            "slug": "none",
+                            "unit": null,
+                            "price": {
+                                "pay-as-you-use": 0,
+                                "monthly": 0,
+                                "1-year": 0,
+                                "3-year": 0,
+                                "5-year": 0
+                            },
+                            "data_type": "list-item",
+                            "data_group": "next-gen-firewall",
+                            "hint": null,
+                            "rule_min_value": null,
+                            "rule_max_value": null,
+                            "rule_muse_be_even": false
+                        },
+                        {
+                            "name": "Specialist",
+                            "slug": "specialist",
+                            "unit": null,
+                            "price": {
+                                "pay-as-you-use": 750000,
+                                "monthly": 750000,
+                                "1-year": 750000,
+                                "3-year": 750000,
+                                "5-year": 750000
+                            },
+                            "data_type": "list-item",
+                            "data_group": "next-gen-firewall",
+                            "hint": null,
+                            "rule_min_value": null,
+                            "rule_max_value": null,
+                            "rule_muse_be_even": false
+                        },
+                        {
+                            "name": "Elite",
+                            "slug": "elite",
+                            "unit": null,
+                            "price": {
+                                "pay-as-you-use": 1250000,
+                                "monthly": 1250000,
+                                "1-year": 1250000,
+                                "3-year": 1250000,
+                                "5-year": 1250000
+                            },
+                            "data_type": "list-item",
+                            "data_group": "next-gen-firewall",
+                            "hint": null,
+                            "rule_min_value": null,
+                            "rule_max_value": null,
+                            "rule_muse_be_even": false
+                        }
+                    ],
+                    "other_rules": [
+                        {
+                            "slug": "public-ip",
+                            "value": "true"
+                        }
+                    ]
+                },
+                {
+                    "name": "Quantity",
+                    "slug": "quantity",
+                    "unit": null,
+                    "price_per_unit": 0,
+                    "data_type": "server_quantity",
+                    "data_group": "multiple",
+                    "hint": null,
+                    "rule_min_value": 1,
+                    "rule_max_value": 50,
+                    "rule_muse_be_even": false,
+                    "rule_editable": true
+                }
+            ]
+        },
+        "deka-flexi": {
+            "product_name": "Deka Flexi",
+            "packages": [
+                {
+                    "name": "c1.small",
+                    "package_component": [
+                        {
+                            "title": "vcpu",
+                            "unit": "GB",
+                            "value": "1"
+                        },
+                        {
+                            "title": "vram",
+                            "unit": "GB",
+                            "value": "1"
+                        }
+                    ]
+                },
+                {
+                    "name": "e1.small",
+                    "package_component": [
+                        {
+                            "title": "vcpu",
+                            "unit": "GB",
+                            "value": "1"
+                        },
+                        {
+                            "title": "vram",
+                            "unit": "GB",
+                            "value": "2"
+                        }
+                    ]
+                },
+                {
+                    "name": "o1.small",
+                    "package_component": [
+                        {
+                            "title": "vcpu",
+                            "unit": "GB",
+                            "value": "1"
+                        },
+                        {
+                            "title": "vram",
+                            "unit": "GB",
+                            "value": "3"
+                        }
+                    ]
+                },
+                {
+                    "name": "s1.small",
+                    "package_component": [
+                        {
+                            "title": "vcpu",
+                            "unit": "GB",
+                            "value": "1"
+                        },
+                        {
+                            "title": "vram",
+                            "unit": "GB",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "c1.medium",
+                    "package_component": [
+                        {
+                            "title": "vcpu",
+                            "unit": "GB",
+                            "value": "2"
+                        },
+                        {
+                            "title": "vram",
+                            "unit": "GB",
+                            "value": "2"
+                        }
+                    ]
+                }
+            ],
+            "calculator_component": [
+                {
+                    "name": "Commitment Type",
+                    "slug": "commitment-type",
+                    "unit": null,
+                    "price": {
+                        "pay-as-you-use": 0,
+                        "monthly": 0,
+                        "1-year": 0,
+                        "3-year": 0,
+                        "5-year": 0
+                    },
+                    "data_type": "commitment-type",
+                    "data_group": "commitment-type",
+                    "hint": null,
+                    "rule_min_value": null,
+                    "rule_max_value": null,
+                    "rule_muse_be_even": false,
+                    "list_items": [
+                        {
+                            "name": "Pay as You Use",
+                            "slug": "pay-as-you-use"
+                        },
+                        {
+                            "name": "Monthly",
+                            "slug": "monthly"
+                        },
+                        {
+                            "name": "1 Year",
+                            "slug": "1-year"
+                        },
+                        {
+                            "name": "3 Year",
+                            "slug": "3-year"
+                        },
+                        {
+                            "name": "5 Year",
+                            "slug": "5-year"
+                        }
+                    ],
+                    "rule_editable": true
+                },
+                {
+                    "name": "Server Name",
+                    "slug": "server-name",
+                    "unit": null,
+                    "price": {
+                        "pay-as-you-use": 0,
+                        "monthly": 0,
+                        "1-year": 0,
+                        "3-year": 0,
+                        "5-year": 0
+                    },
+                    "data_type": "server_name",
+                    "data_group": null,
+                    "hint": null,
+                    "rule_min_value": null,
+                    "rule_max_value": null,
+                    "rule_muse_be_even": false
+                },
+                {
+                    "name": "vCPU",
+                    "slug": "vcpu",
+                    "unit": "vCPU",
+                    "price": {
+                        "pay-as-you-use": 130000,
+                        "monthly": 130000,
+                        "1-year": 105000,
+                        "3-year": 96000,
+                        "5-year": 90000
+                    },
+                    "data_type": "integer",
+                    "data_group": null,
+                    "hint": "Each vCPU speed is 2 GHz",
+                    "rule_min_value": 1,
+                    "rule_max_value": 32,
+                    "rule_muse_be_even": false,
+                    "rule_editable": false
+                },
+                {
+                    "name": "vRAM",
+                    "slug": "vram",
+                    "unit": "GB",
+                    "price": {
+                        "pay-as-you-use": 88000,
+                        "monthly": 88000,
+                        "1-year": 71000,
+                        "3-year": 65000,
+                        "5-year": 61000
+                    },
+                    "data_type": "integer",
+                    "data_group": null,
+                    "hint": "Each vCPU speed is 2 GHz",
+                    "rule_min_value": 1,
+                    "rule_max_value": 128,
+                    "rule_muse_be_even": false,
+                    "rule_editable": false
+                },
+                {
+                    "name": "Storage Type",
+                    "slug": "storage-type",
+                    "unit": null,
+                    "price_per_unit": 0,
+                    "data_type": "list-with-child",
+                    "data_group": "storage",
+                    "hint": null,
+                    "rule_min_value": null,
+                    "rule_max_value": null,
+                    "rule_muse_be_even": false,
+                    "list_items": [
+                        {
+                            "name": "SSD Standard",
+                            "slug": "ssd-standard",
+                            "target": "storage-capacity-ssd-standard"
+                        },
+                        {
+                            "name": "SSD Premium",
+                            "slug": "ssd-premium",
+                            "target": "storage-capacity-ssd-premium"
+                        },
+                        {
+                            "name": "SSD Priority",
+                            "slug": "ssd-priority",
+                            "target": "storage-capacity-ssd-priority"
+                        }
+                    ],
+                    "data_child_slug_prefix": "storage-capacity" 
+                },
+                {
+                    "name": "Storage Capacity",
+                    "slug": "storage-capacity-ssd-standard",
+                    "unit": "GB",
+                    "price": {
+                        "pay-as-you-use": 2650,
+                        "monthly": 2650,
+                        "1-year": 2054,
+                        "3-year": 1789,
+                        "5-year": 1524
+                    },
+                    "data_type": "integer",
+                    "data_group": "list-storage-type",
+                    "hint": "Include root disk (estimate 20 GB)",
+                    "rule_min_value": 20,
+                    "rule_max_value": 10000,
+                    "rule_muse_be_even": false,
+                    "rule_editable": true
+                },
+                {
+                    "name": "Storage Capacity",
+                    "slug": "storage-capacity-ssd-premium",
+                    "unit": "GB",
+                    "price": {
+                        "pay-as-you-use": 3750,
+                        "monthly": 3750,
+                        "1-year": 3750,
+                        "3-year": 3750,
+                        "5-year": 3750
+                    },
+                    "data_type": "integer",
+                    "data_group": "list-storage-type",
+                    "hint": "Include root disk (estimate 20 GB)",
+                    "rule_min_value": 20,
+                    "rule_max_value": 10000,
+                    "rule_muse_be_even": false,
+                    "rule_editable": true
+                },
+                {
+                    "name": "Storage Capacity",
+                    "slug": "storage-capacity-ssd-priority",
+                    "unit": "GB",
+                    "price": {
+                        "pay-as-you-use": 4500,
+                        "monthly": 4500,
+                        "1-year": 4500,
+                        "3-year": 4500,
+                        "5-year": 4500
+                    },
+                    "data_type": "integer",
+                    "data_group": "list-storage-type",
+                    "hint": "Include root disk (estimate 20 GB)",
+                    "rule_min_value": 20,
+                    "rule_max_value": 10000,
+                    "rule_muse_be_even": false,
+                    "rule_editable": true
+                },
+                {
+                    "name": "Public IP",
+                    "slug": "public-ip",
+                    "unit": null,
+                    "price": {
+                        "pay-as-you-use": 0,
+                        "monthly": 0,
+                        "1-year": 0,
+                        "3-year": 0,
+                        "5-year": 0
+                    },
+                    "data_type": "boolean",
+                    "data_group": null,
+                    "hint": null,
+                    "rule_min_value": null,
+                    "rule_max_value": null,
+                    "rule_muse_be_even": false,
+                    "rule_editable": true
+                },
+                {
+                    "name": "OS Type",
+                    "slug": "os-type",
+                    "unit": null,
+                    "price": {
+                        "pay-as-you-use": 0,
+                        "monthly": 0,
+                        "1-year": 0,
+                        "3-year": 0,
+                        "5-year": 0
+                    },
+                    "data_type": "list-full",
+                    "data_group": null,
+                    "hint": null,
+                    "rule_min_value": null,
+                    "rule_max_value": null,
+                    "rule_muse_be_even": false,
+                    "list_items": [
+                        {
+                            "name": "CentOS 6.10 Open Source",
+                            "slug": "centos-6-10-open-source",
+                            "unit": null,
+                            "price": {
+                                "pay-as-you-use": 0,
+                                "monthly": 0,
+                                "1-year": 0,
+                                "3-year": 0,
+                                "5-year": 0
+                            },
+                            "data_type": "list-item",
+                            "data_group": "os-type",
+                            "hint": null,
+                            "rule_min_value": null,
+                            "rule_max_value": null,
+                            "rule_muse_be_even": false
+                        },
+                        {
+                            "name": "Windows Server Standard",
+                            "slug": "windows-server-standard",
+                            "unit": null,
+                            "price": {
+                                "pay-as-you-use": 750000,
+                                "monthly": 750000,
+                                "1-year": 700000,
+                                "3-year": 675000,
+                                "5-year": 650000
+                            },
+                            "data_type": "list-item",
+                            "data_group": "os-type",
+                            "hint": null,
+                            "rule_min_value": null,
+                            "rule_max_value": null,
+                            "rule_muse_be_even": false
+                        },
+                        {
+                            "name": "Windows Server DC",
+                            "slug": "windows-server-dc",
+                            "unit": null,
+                            "price": {
+                                "pay-as-you-use": 1250000,
+                                "monthly": 1250000,
+                                "1-year": 1150000,
+                                "3-year": 1100000,
+                                "5-year": 1000000
+                            },
+                            "data_type": "list-item",
+                            "data_group": "os-type",
+                            "hint": null,
+                            "rule_min_value": null,
+                            "rule_max_value": null,
+                            "rule_muse_be_even": false
+                        }
+                    ]
+                },
+                {
+                    "name": "Active DR",
+                    "slug": "active-dr",
+                    "unit": null,
+                    "price": {
+                        "pay-as-you-use": 0,
+                        "monthly": 0,
+                        "1-year": 0,
+                        "3-year": 0,
+                        "5-year": 0
+                    },
+                    "data_type": "boolean",
+                    "data_group": null,
+                    "hint": null,
+                    "rule_min_value": null,
+                    "rule_max_value": null,
+                    "rule_muse_be_even": false,
+                    "rule_editable": true,
+                    "other_rules": [],
+                    "pricing_impact_rules": [
+                        {
+                            "slug": "storage-type",
+                            "value": "true",
+                            "action": [
+                                {
+                                    "operation": "multiple",
+                                    "operation_value": 2
+                                }
+                            ]
+                        },
+                        {
+                            "slug": "quantity",
+                            "value": "true",
+                            "action": [
+                                {
+                                    "operation": "plus",
+                                    "operation_value": 250000
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Quantity",
+                    "slug": "quantity",
+                    "unit": null,
+                    "price": {
+                        "pay-as-you-use": 0,
+                        "monthly": 0,
+                        "1-year": 0,
+                        "3-year": 0,
+                        "5-year": 0
+                    },
+                    "data_type": "integer",
+                    "data_group": "multiple",
+                    "hint": null,
+                    "rule_min_value": 1,
+                    "rule_max_value": 50,
+                    "rule_muse_be_even": false,
+                    "rule_editable": true
+                }
+            ]
+        }
+    }
+}

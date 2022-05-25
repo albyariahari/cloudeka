@@ -1,0 +1,96 @@
+.socmed {
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        margin-top: 10px;
+
+        .socmed--link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #fff;
+            color: $secondary;
+            font-size: 10px;
+            margin-right: 5px;
+
+            &:nth-last-child(1) {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.mail {
+    &__body {
+        padding: 40px 0;
+    }
+
+    &__banner {
+        .banner-title {
+            .text {
+                h2 {
+                    @media screen and (max-width: 375px) {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__contact {
+        .wrapper {
+            position: relative;
+            background-color: $secondary;
+            border-radius: 14px;
+            padding: 20px 10px;
+
+            &::before {
+                content: "";
+                position: absolute;
+                background-color: #fff;
+                width: 1px;
+                height: 80%;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        &__left {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            color: #fff;
+
+            .address-wrapper {
+                margin: 10px 0;
+            }
+
+            .contact-wrapper {
+                line-height: 18px;
+            }
+        }
+
+        &__right {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            nav {
+                align-items: flex-end;
+
+                .nav-link {
+                    padding: 0.25rem 0;
+                    color: #fff;
+                    font-weight: $font-medium;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}

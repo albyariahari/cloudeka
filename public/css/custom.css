@@ -1,0 +1,24 @@
+.form-button{
+    position: fixed;
+    top: 70px;
+    right: 15px;
+    z-index: 999;
+}
+.form-button .btn{
+    margin-left: 15px;
+    width:120px
+}
+.img-responsive{
+    position: relative;
+    height: 100% !important;
+    width: 100% !important;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #fff;
+    background-color: #ddd;
+}
