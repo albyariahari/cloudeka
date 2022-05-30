@@ -2,9 +2,9 @@
 
 @section('meta')
 
-<meta name="description" content="{{$metadata->meta_description }}">
-<meta name="keywords" content=" {{ $metadata->meta_keyword }}">
-<title>{{$metadata->meta_title}} - Lintasarta Cloudeka</title>
+<meta name="description" content="Cloud Hosting Provider di Indonesia persembahan Lintasarta Cloudeka. Kami berkomitmen memberikan solusi web/aplikasi hosting yang aman, mudah, terjangkau.">
+<meta name="keywords" content="cloud hosting indonesia, cloud hosting, cloud indonesia, cloud provider indonesia">
+<title>Cloud Hosting Provider di Indonesia - Lintasarta Cloudeka</title>
 
 @endsection
 

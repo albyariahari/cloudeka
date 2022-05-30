@@ -1,9 +1,9 @@
 @extends('app')
 
 @section('meta')
-<meta name="description" content="{{$metadata->meta_description }}">
-<meta name="keywords" content=" {{ $metadata->meta_keyword }}">
-<title>{{$metadata->meta_title}} - Lintasarta Cloudeka</title>
+<meta name="description" content="Data cloud business solutions di Indonesia persembahan Lintasarta Cloudeka. Solusi cloud anak negeri yang aman, mudah, dan hemat biaya untuk web/aplikasi hosting">
+<meta name="keywords" content="cloud managed solutions, data cloud solutions, cloud business solutions">
+<title>Data Cloud Business Solutions Indonesia - Lintasarta Cloudeka</title>
 @endsection
 
 @push('styles')

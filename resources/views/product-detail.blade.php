@@ -3,7 +3,7 @@
 @section('meta')
 <meta name="description" content="{{$productTranslate->meta_description }}">
 <meta name="keywords" content=" {{ $productTranslate->meta_keyword }}">
-<title>{{$productTranslate->meta_title}} - Lintasarta Cloudeka</title>
+<title>{{$productTranslate->meta_title}}</title>
 @endsection
 
 @push('styles')
