@@ -8,5 +8,6 @@ Disallow: /solutions
 Disallow: /news
 Disallow: /become-partner
 Disallow: /faq
+Disallow: /search?*
 
 Sitemap: https://cloudeka.id/sitemap.xml

@@ -4,9 +4,11 @@
 <meta name="googlebot" content="index,follow">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="alternate" hreflang="en-gb" href="https://www.cloudeka.id/" />
-  <link rel="alternate" hreflang="en-us" href="https://www.cloudeka.id/" />
-  <link rel="alternate" hreflang="en" href="https://www.cloudeka.id/" />
- <link rel="alternate" hreflang="x-default" href="https://www.cloudeka.id/" />
+<link rel="alternate" hreflang="id" href="https://www.cloudeka.id/id" />
+<link rel="alternate" hreflang="en-us" href="https://www.cloudeka.id/" />
+<link rel="alternate" hreflang="en" href="https://www.cloudeka.id/" />
+<link rel="alternate" hreflang="x-default" href="https://www.cloudeka.id/" />
+<link rel="canonical" href="https://www.cloudeka.id/id" />
 <title>Lintasarta Cloud</title>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2CH7ZWY3ZV"></script>
