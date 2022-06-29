@@ -48,16 +48,16 @@
                   <div class="col-12 col-lg-10 menu-details">
                     @foreach ($header_product_categories as $category)
                     <div class="content-section {{$loop->index === 0 ? 'shown' : ''}}" id="{{$category->slug}}-megamenu">
-                      <h2>
+                      <p>
                         <a href="#">
                             {{$category->title}}
                         </a>
-                      </h2>
+                      </p>
                       <div class="row">
                         @foreach ($category->Products as $product)
                         <div class="col-12 col-lg-2">
                           <a href="{{ route('product.show',$product->translate($lang)->slug) }}">
-                            <h3>{{ $product->translate($lang)->title }}</h3>
+                            <p>{{ $product->translate($lang)->title }}</p>
                             <p>{{$product->translate($lang)->excerpt}}</p>
                           </a>
                         </div>
@@ -89,13 +89,13 @@
                   <div class="col-12 col-lg-10 menu-details">
                     @foreach ($header_solutions as $solution)
                     <div class="content-section {{$loop->index === 0 ? 'shown':''}}" id="{{$solution->translate($lang)->slug}}-megamenu">
-                      <h2>{{$solution->translate($lang)->title}}</h2>
+                      <p>{{$solution->translate($lang)->title}}</p>
                       <div class="row justify-content-start">
                         @foreach ($solution->Products as $product)
 
                         <div class="col-12 col-lg-2">
                           <a href="{{ route('product.show',$product->translate($lang)->slug) }}">
-                            <h3>{{$product->translate($lang)->title}}</h3>
+                            <p>{{$product->translate($lang)->title}}</p>
                             <p>{{$product->translate($lang)->excerpt}}</p>
                           </a>
                         </div>
