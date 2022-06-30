@@ -8,12 +8,13 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <meta name="robots" content="index,follow">
         <meta name="googlebot" content="index,follow">
-        <link rel="alternate" hreflang="en-gb" href="https://www.cloudeka.id/" />
-        <link rel="alternate" hreflang="id" href="https://www.cloudeka.id/id" />
-        <link rel="alternate" hreflang="en-us" href="https://www.cloudeka.id/" />
-        <link rel="alternate" hreflang="en" href="https://www.cloudeka.id/" />
-        <link rel="alternate" hreflang="x-default" href="https://www.cloudeka.id/" />
-<link rel="canonical" href="https://www.cloudeka.id/id" />
+        <link rel="alternate" hreflang="en-gb"href="{{ url()->current() }}" />
+        <link rel="alternate" hreflang="id" href="{{ url()->current() }}" />
+        <link rel="alternate" hreflang="en-us" href="{{ url()->current() }}" />
+        <link rel="alternate" hreflang="en" href="{{ url()->current() }}" />
+        <link rel="alternate" hreflang="x-default" href="{{ url()->current() }}" />
+        {{-- <link rel="canonical" href="https://www.cloudeka.id/id" /> --}}
+        <link rel="canonical" href="{{ url()->current() }}">
         <link rel="icon" href="{{ '/imgs/favicon.png' }}">
 
         @yield('meta', 'Lintasarta Cloudeka')

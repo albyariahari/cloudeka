@@ -2,9 +2,9 @@
 
 @section('meta')
 
+<title>{{$metadata->meta_title}} - Lintasarta Cloudeka</title>
 <meta name="description" content="{{$metadata->meta_description }}">
 <meta name="keywords" content=" {{ $metadata->meta_keyword }}">
-<title>{{$metadata->meta_title}} - Lintasarta Cloudeka</title>
 
 @endsection
 

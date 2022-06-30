@@ -1,9 +1,9 @@
 @extends('app')
 
 @section('meta')
+<title>{{$newsTranslation->meta_title}} - Lintasarta Cloudeka</title>
 <meta name="description" content="{{$newsTranslation->meta_description }}">
 <meta name="keywords" content=" {{ $newsTranslation->meta_keyword }}">
-<title>{{$newsTranslation->meta_title}} - Lintasarta Cloudeka</title>
 @endsection
 
 @push('styles')
