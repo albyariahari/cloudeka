@@ -1,13 +1,6 @@
 User-agent: *
 Disallow: /admin
 Disallow: /login
-Disallow: /documentation
-Disallow: /why-us
-Disallow: /products
-Disallow: /solutions
-Disallow: /news
-Disallow: /become-partner
-Disallow: /faq
 Disallow: /search?*
 
 Sitemap: https://cloudeka.id/sitemap.xml
