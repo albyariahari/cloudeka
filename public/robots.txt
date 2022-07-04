@@ -3,4 +3,4 @@ Disallow: /admin
 Disallow: /login
 Disallow: /search?*
 
-Sitemap: https://cloudeka.id/sitemap.xml
+Sitemap: https://www.cloudeka.id/sitemap.xml
