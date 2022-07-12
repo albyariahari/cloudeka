@@ -7,16 +7,15 @@
     <style>
         .middle {
             text-align: center;
-            font-family: "Fira Sans Black";
+            font-family: "Fira Sans", sans-black;
             font-size: 150px;
         }
 
         .textRed {
             text-align: center;
-            font-family: "Fira Sans Bold";
+            font-family: "Fira Sans", sans-bold;
             font-size: 60px;
         }
-
         .buttonAct {
             text-align: center;
         }
