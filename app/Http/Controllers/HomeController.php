@@ -1057,4 +1057,54 @@ class HomeController extends Controller {
         ]);
         return view('errors.404', $this->data);
     }
+    public function pageError()
+    {
+        $page_id = 1;
+        $sections = Section::where('page_id', $page_id)->get();
+        $slideshows = SliderItem::where('slider_id', 1)->orderBy('order', 'asc')->get();
+        $products = Product::paginate(8);
+        $successStories = DynamicContent::where('contentable_type', 'module')->where('contentable_id', 1)->get();
+        $solutions = Solution::paginate(8);
+        $clients = Client::where('is_shown', 1)->get();
+        $partners = Partner::all();
+
+        $this->pushData([
+            'metadata' => convertToMetadata('section', $sections[0]->translate($this->__lang)),
+            'whyChoose' => $sections[2]->translate($this->__lang),
+            'slideshows' => $slideshows,
+            'products' => [
+                'title' => $sections[3]->translate($this->__lang)->title,
+                'data' => $products
+            ],
+            'solutions' => [
+                'title' => $sections[4]->translate($this->__lang)->title,
+                'data' => $solutions
+            ],
+            'successStories' => [
+                'title' => $sections[5]->translate($this->__lang)->title,
+                'subtitle' => $sections[5]->translate($this->__lang)->subtitle,
+                'data' => $successStories
+            ],
+            'clients' => [
+                'title' => $sections[6]->translate($this->__lang)->title,
+                'data' => $clients
+            ],
+            'partners' => [
+                'title' => $sections[7]->translate($this->__lang)->title,
+                'data' => $partners
+            ],
+            'news' => [
+                'title' => $sections[8]->translate($this->__lang)->title,
+                'bigSection' => News::orderBy('created_at', 'desc')->first(),
+                'tripleRow' => News::orderBy('created_at', 'desc')->offset(1)->limit(3)->get()
+            ],
+            'bottomBanner' => $sections[9]->translate($this->__lang),
+            'promotion' => Promotion::where('is_popup', 1)->where(function ($qry) {
+                $qry->where('end_date', '>=', date('Y-m-d H:i:s'))->orWhereNull('end_date');
+            })->orderBy('created_at', 'DESC')->first(),
+            'page' => 'home',
+            'lang' => $this->__lang
+        ]);
+        return view('errors.500', $this->data);
+    }
 }

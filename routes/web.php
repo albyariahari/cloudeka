@@ -296,6 +296,7 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'admin', 'namespace' => 'Adm
 Route::prefix(LaravelLocalization::setLocale())->middleware(['localeSessionRedirect', 'localizationRedirect', 'localeViewPath'])->group(function () {
     Route::get('/', 'HomeController@index')->name('home');
     Route::get('404', 'HomeController@pageErrors')->name('errors-page');
+    Route::get('500', 'HomeController@pageError')->name('error-page');
     // Route::view('/404', 'errors.404');
     Route::get('why-us', 'HomeController@whyUs')->name('why-us');
     Route::get('products', 'ProductController@index')->name('product.index');
