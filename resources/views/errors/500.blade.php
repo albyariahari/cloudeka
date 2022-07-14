@@ -22,7 +22,7 @@
 
         .block {
             display: block;
-            width: 80%;
+            width: 90%;
             border: none;
             background-color: #04AA6D;
             padding: 14px 28px;
@@ -42,18 +42,18 @@
                     <b>500</b>
                 </p>
                 <p class="text-danger textRed">
-                    <b>The page you're looking for can't be found..</b>
+                    <b>{{ __('error.body') }}</b>
                 </p>
                 <div class="row">
                     <div class="col-6 buttonAct">
-                        <p><a href="{{ route('product.index') }}"><button type="button" class="btn btn-primary block">Try Cloud Products</button></a><br></p>
-                        <p><a href="{{ route('news') }}"><button type="button" class="btn btn-primary block" >Read Latest Articles</button></a><br></p>
-                        <p><a href="{{ route('calculator') }}"><button type="button" class="btn btn-primary block" >See Pricing</button></a><br></p>
+                        <p><a href="{{ route('product.index') }}"><button type="button" class="btn btn-primary block">{{ __('error.product') }}</button></a><br></p>
+                        <p><a href="{{ route('news') }}"><button type="button" class="btn btn-primary block" >{{ __('error.articles') }}</button></a><br></p>
+                        <p><a href="{{ route('calculator') }}"><button type="button" class="btn btn-primary block" >{{ __('error.pricing') }}</button></a><br></p>
                     </div>
                     <div class="col-6 buttonAct">
-                        <p><a href="{{ route('solution.index') }}"><button type="button" class="btn btn-primary block" >Find Cloud Solutions</button></a><br></p>
-                        <p><a href="{{ route('contact-us') }}"><button type="button" class="btn btn-primary block" >Ask Anything</button></a><br></p>
-                        <p><a href="{{ route('home') }}"><button type="button" class="btn btn-primary block" >Go To HomePage</button></a><br></p>
+                        <p><a href="{{ route('solution.index') }}"><button type="button" class="btn btn-primary block" >{{ __('error.solution') }}</button></a><br></p>
+                        <p><a href="{{ route('contact-us') }}"><button type="button" class="btn btn-primary block" >{{ __('error.ask') }}</button></a><br></p>
+                        <p><a href="{{ route('home') }}"><button type="button" class="btn btn-primary block" >{{ __('error.home') }}</button></a><br></p>
                     </div>
                 </div>
                 <br>
