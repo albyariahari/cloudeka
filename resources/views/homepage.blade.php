@@ -141,7 +141,7 @@
                 </a>
             </div>
         </div>
-        {{ Breadcrumbs::render('home') }}
+        <br><br><br>{{ Breadcrumbs::render('home') }}
     </div>
 
 

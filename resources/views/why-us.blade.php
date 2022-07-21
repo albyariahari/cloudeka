@@ -15,8 +15,9 @@
     <!-- Banner -->
     <div class="container-fluid banner">
         <img src="{{ cloudekaBucketLocalUrl($banner->image_1) }}" class="w-100" alt="Why Lintasarta cloud Local Expertise Communicative For All Business Model indonesian cloud partners">
-        {{ Breadcrumbs::render('why-us') }}
+        <br><br><br>{{ Breadcrumbs::render('why-us') }}
     </div>
+    
 
     <!-- Section Milestone -->
     <section class="sections">

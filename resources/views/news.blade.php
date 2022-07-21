@@ -104,7 +104,7 @@
                 <h2 class="light-color mb-0" data-aos="fade-up" data-aos-duration="500">{{$category->title ?? $banner->title}}</h2>
             </div>
         </div>
-        {{ Breadcrumbs::render('news') }}
+        <br><br><br>{{ Breadcrumbs::render('news') }}
     </div>
     <!-- /Banner -->
 

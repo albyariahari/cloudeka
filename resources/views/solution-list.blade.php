@@ -39,7 +39,7 @@
                 @endforeach
             </div>
         </div>
-        {{ Breadcrumbs::render('solutions') }}
+        <br><br><br>{{ Breadcrumbs::render('solutions') }}
     </div>
 
 
