@@ -49,15 +49,17 @@
                     @foreach ($header_product_categories as $category)
                     <div class="content-section {{$loop->index === 0 ? 'shown' : ''}}" id="{{$category->slug}}-megamenu">
                       <p>
+                        <b>
                         <a href="#">
                             {{$category->title}}
                         </a>
+                      </b>
                       </p>
                       <div class="row">
                         @foreach ($category->Products as $product)
                         <div class="col-12 col-lg-2">
                           <a href="{{ route('product.show',$product->translate($lang)->slug) }}">
-                            <p>{{ $product->translate($lang)->title }}</p>
+                            <p><b>{{ $product->translate($lang)->title }}</b></p>
                             <p>{{$product->translate($lang)->excerpt}}</p>
                           </a>
                         </div>
@@ -89,13 +91,13 @@
                   <div class="col-12 col-lg-10 menu-details">
                     @foreach ($header_solutions as $solution)
                     <div class="content-section {{$loop->index === 0 ? 'shown':''}}" id="{{$solution->translate($lang)->slug}}-megamenu">
-                      <p>{{$solution->translate($lang)->title}}</p>
+                      <p><b>{{$solution->translate($lang)->title}}</b></p>
                       <div class="row justify-content-start">
                         @foreach ($solution->Products as $product)
 
                         <div class="col-12 col-lg-2">
                           <a href="{{ route('product.show',$product->translate($lang)->slug) }}">
-                            <p>{{$product->translate($lang)->title}}</p>
+                            <p><b>{{$product->translate($lang)->title}}</b></p>
                             <p>{{$product->translate($lang)->excerpt}}</p>
                           </a>
                         </div>
