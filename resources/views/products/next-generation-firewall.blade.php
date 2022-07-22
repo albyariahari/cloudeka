@@ -9,7 +9,7 @@
     <!-- Banner -->
     <div class="container-fluid banner">
         <div class="banner-title">
-            <img src="/imgs/products/banners/ngfc.png" class="w-100">
+            <img src="/imgs/products/banners/ngfc.png" alt="Next Generation Firewall" class="w-100">
             <h1>Next Generation
                 <br>Firewall</h1>
             <div class="icon-product"><img src="/imgs/solutions/svg/solutions/products/cloud-premium-2.svg" class="img-fluid"/></div>

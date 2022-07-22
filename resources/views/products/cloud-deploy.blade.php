@@ -11,7 +11,7 @@
         <div class="banner-title">
             <img src="/imgs/products/banners/cloud-deploy.png" class="w-100">
             <h1>Cloud Deploy</h1>
-            <div class="icon-product"><img src="/imgs/solutions/svg/solutions/products/cloud-premium-2.svg" class="img-fluid"/></div>
+            <div class="icon-product"><img src="/imgs/solutions/svg/solutions/products/cloud-premium-2.svg" alt="Cloud Deploy" class="img-fluid"/></div>
         </div>
 
     </div>
@@ -40,7 +40,7 @@
                 </div>
                 <div class="col-12 col-lg-8">
                     <div class="d-flex justify-content-center justify-content-lg-start w-100">
-                        <img src="/imgs/products/red-hat-openshift.png" height="64">
+                        <img src="/imgs/products/red-hat-openshift.png" alt="Technology partners" height="64">
                     </div>
                 </div>
             </div>
@@ -107,22 +107,22 @@
                 <div class="col-lg-8 dark-color pt-2">
                     <div class="row product-lists owl-carousel owl-theme">
                         <div class="col-12 col-lg-6 col-xl-4 px-xl-4 pb-0 pb-lg-5">
-                            <img src="/imgs/products/feature-products/066-launch.svg" class="img-fluid" style="max-width: 100px; height:100px;">
+                            <img src="/imgs/products/feature-products/066-launch.svg" alt="Simple Deployment" class="img-fluid" style="max-width: 100px; height:100px;">
                             <h4 class="mt-4 mb-3">Simple Deployment</h4>
                             <p>Cloud Deploy offers convenience in deploying applications, which is as simple as login and deploy. This solution also supports Continuous Integration (CI) and Continuous Delivery (CD) processes, so that the Cloud Deploy service can perform testing, debugging, and updating application versions easily and quickly.</p>
                         </div>
                         <div class="col-12 col-lg-6 col-xl-4 px-xl-4 pb-0 pb-lg-5">
-                            <img src="/imgs/products/feature-products/011-operation.svg" class="img-fluid" style="max-width: 100px; height:100px;">
+                            <img src="/imgs/products/feature-products/011-operation.svg" alt="Flexibel Configuration" class="img-fluid" style="max-width: 100px; height:100px;">
                             <h4 class="mt-4 mb-3">Flexibel Configuration</h4>
                             <p>The autoscaling service process can be implemented via a horizontal pod auto-scaler. Also, the auto-recovery system will start working once a problematic pod is found.</p>
                         </div>
                         <div class="col-12 col-lg-6 col-xl-4 px-xl-4 pb-0 pb-lg-5">
-                            <img src="/imgs/products/feature-products/026-decision.svg" class="img-fluid" style="max-width: 100px; height:100px;">
+                            <img src="/imgs/products/feature-products/026-decision.svg" alt="Optimal Management" class="img-fluid" style="max-width: 100px; height:100px;">
                             <h4 class="mt-4 mb-3">Optimal Management</h4>
                             <p>The platform and infrastructure will be fully managed by Lintasarta Cloudeka professional technicians team who hold international certifications.</p>
                         </div>
                         <div class="col-12 col-lg-6 col-xl-4 px-xl-4 pb-0 pb-lg-5">
-                            <img src="/imgs/products/feature-products/030-time.svg" class="img-fluid" style="max-width: 100px; height:100px;">
+                            <img src="/imgs/products/feature-products/030-time.svg" alt=">No More Bandwidth Metering" class="img-fluid" style="max-width: 100px; height:100px;">
                             <h4 class="mt-4 mb-3">No More Bandwidth <br>Metering</h4>
                             <p>Free shared Internet up to 1 Gbps IIX and 200 Mbps IX or you can choose Lintasarta Internet Dedicated or Lintasarta Metro Ethernet for faster and more stable connections.</p>
                         </div>
@@ -144,27 +144,27 @@
                     <h3 class="light-color mb-5">See Our Solutions Industry Covered by <strong>Cloud Bucket</strong> Product</h3>
                     <div class="owl-carousel owl-slide owl-carousel-2 owl-theme">
                         <div class="slide-logo-light">
-                            <img src="/imgs/solutions/svg/solutions/banking-blue.svg" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
+                            <img src="/imgs/solutions/svg/solutions/banking-blue.svg" alt="banking" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
                             <h3>Banking</h3>
                             <p class="text-left mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>
                         <div class="slide-logo-light">
-                            <img src="/imgs/solutions/svg/solutions/finance-non-bank-blue.svg" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
+                            <img src="/imgs/solutions/svg/solutions/finance-non-bank-blue.svg" alt="Finance Non-Bank" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
                             <h3>Finance Non-Bank</h3>
                             <p class="text-left mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>
                         <div class="slide-logo-light">
-                            <img src="/imgs/solutions/svg/solutions/government-blue.svg" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
+                            <img src="/imgs/solutions/svg/solutions/government-blue.svg" alt="Government" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
                             <h3>Government</h3>
                             <p class="text-left mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>
                         <div class="slide-logo-light">
-                            <img src="/imgs/solutions/svg/solutions/telco-blue.svg" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
+                            <img src="/imgs/solutions/svg/solutions/telco-blue.svg" alt="Telco" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
                             <h3>Telco</h3>
                             <p class="text-left mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>
                         <div class="slide-logo-light">
-                            <img src="/imgs/solutions/svg/solutions/digital-company-blue.svg" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
+                            <img src="/imgs/solutions/svg/solutions/digital-company-blue.svg" alt="Digital Company" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
                             <h3>Digital Company</h3>
                             <p class="text-left mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>

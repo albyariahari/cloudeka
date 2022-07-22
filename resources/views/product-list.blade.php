@@ -1,9 +1,9 @@
 @extends('app')
 
 @section('meta')
-<meta name="description" content="{{$metadata->meta_description }}">
-<meta name="keywords" content=" {{ $metadata->meta_keyword }}">
-<title>{{$metadata->meta_title}} - Lintasarta Cloudeka</title>
+<meta name="description" content="Layanan Cloud Computing dari Lintasarta Cloudeka. Layanan Cloud untuk kebutuhan infrastruktur, platform, software, hingga security yang aman, mudah, dan hemat">
+<meta name="keywords" content="layanan cloud computing, layanan cloud">
+<title>Layanan Cloud Computing Anak Negeri - Lintasarta Cloudeka</title>
 @endsection
 
 @push('styles')
@@ -28,7 +28,7 @@
                         <h1 class="light-color" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">{{ $slideshow->translate($lang)->title }}</h1>
                     </div>
 
-                    <img src="{{ cloudekaBucketLocalUrl($slideshow->image) }}" class="d-block w-100" alt="Banner">
+                    <img src="{{ cloudekaBucketLocalUrl($slideshow->image) }}" class="d-block w-100" alt="Banner product list cloudeka">
                     <div class="carousel-caption">
                         <h1 class="light-color android-none" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">{{ $slideshow->translate($lang)->title }}</h1>
                         <div class="font-20" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
@@ -40,6 +40,7 @@
                 @endforeach
             </div>
         </div>
+        {{ Breadcrumbs::render('products') }}
     </div>
 
     

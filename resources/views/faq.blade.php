@@ -12,7 +12,7 @@
     <section class="documentation-banner">
         <div class="container-fluid px-0">
             <div class="banner-title">
-                <img src='{{ cloudekaBucketLocalUrl($banner->image_1) }}' class="w-100" alt="Why Lintasarta cloud">
+                <img src='{{ cloudekaBucketLocalUrl($banner->image_1) }}' class="w-100" alt="Why Lintasarta cloud faq cloudeka">
                 <img src="/imgs/faqs/faq-svg.png" class="img-fluid document-svg" alt="Icon">
                 <div class="text">
                     <h2 class="light-color">{!! $banner->title !!}</h2>

@@ -9,7 +9,7 @@
     <!-- Banner -->
     <div class="container-fluid banner">
         <div class="banner-title">
-            <img src="/imgs/products/banners/cloud-premium.png" class="w-100">
+            <img src="/imgs/products/banners/cloud-premium.png" alt="Cloud Premium" class="w-100">
             <h1>Cloud Premium</h1>
             <div class="icon-product"><img src="/imgs/solutions/svg/solutions/products/cloud-premium-2.svg" class="img-fluid"/></div>
         </div>
@@ -40,7 +40,7 @@
                 </div>
                 <div class="col-12 col-lg-8">
                     <div class="d-flex w-100 justify-content-center justify-content-lg-start">
-                        <img src="/imgs/products/vmware.png" width="300">
+                        <img src="/imgs/products/vmware.png" width="300" alt="Technology partners">
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@
                         <div class="owl-carousel owl-slide owl-carousel-1 owl-theme">
                             <div class="slide-logo-light slide-logo-light--use-cases">
                                 <div class="img-wrapper mb-4 mt-0">
-                                    <img src="/imgs/logos/askrindo.png" class="w-auto m-auto">
+                                    <img src="/imgs/logos/askrindo.png" class="w-auto m-auto" alt="Uses Cases">
                                 </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                             </div>
@@ -135,12 +135,12 @@
                 <div class="col-lg-8 dark-color pt-2">
                     <div class="row product-lists owl-carousel owl-theme">
                         <div class="col-12 col-lg-6 col-xl-4 px-xl-4 pb-0 pb-lg-5">
-                            <img src="/imgs/products/feature-products/011-operation.svg" class="img-fluid" style="max-width: 100px; height:100px;">
+                            <img src="/imgs/products/feature-products/011-operation.svg" alt="Cloud Premium Features and Benefit" class="img-fluid" style="max-width: 100px; height:100px;">
                             <h4 class="mt-4 mb-3">Hussle-free and <br>flexible options Cloud</h4>
                             <p>Offers a virtual machine with managed service solution to automatically size the storage and is equipped with a flexible resource pool that can help you to create, delete, and edit the virtual machine as required.</p>
                         </div>
                         <div class="col-12 col-lg-6 col-xl-4 px-xl-4 pb-0 pb-lg-5">
-                            <img src="/imgs/products/feature-products/030-time.svg" class="img-fluid" style="max-width: 100px; height:100px;">
+                            <img src="/imgs/products/feature-products/030-time.svg" alt="No More Bandwidth Metering" class="img-fluid" style="max-width: 100px; height:100px;">
                             <h4 class="mt-4 mb-3">No More Bandwidth <br>Metering</h4>
                             <p>Free shared Internet up to 1 Gbps IIX and 200 Mbps IX or you can choose Lintasarta Internet Dedicated or Lintasarta Metro Ethernet for faster and more stable connections.</p>
                         </div>
@@ -167,32 +167,32 @@
                     <h3 class="light-color mb-5">See Our Solutions Industry Covered by <strong>Cloud Premium</strong> Product</h3>
                     <div class="owl-carousel owl-slide owl-carousel-2 owl-theme">
                         <div class="slide-logo-light">
-                            <img src="/imgs/solutions/svg/solutions/banking-blue.svg" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
+                            <img src="/imgs/solutions/svg/solutions/banking-blue.svg" alt="banking" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
                             <h3>Banking</h3>
                             <p class="text-left mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>
                         <div class="slide-logo-light">
-                            <img src="/imgs/solutions/svg/solutions/finance-non-bank-blue.svg" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
+                            <img src="/imgs/solutions/svg/solutions/finance-non-bank-blue.svg" alt="Finance Non-Bank" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
                             <h3>Finance Non-Bank</h3>
                             <p class="text-left mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>
                         <div class="slide-logo-light">
-                            <img src="/imgs/solutions/svg/solutions/government-blue.svg" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
+                            <img src="/imgs/solutions/svg/solutions/government-blue.svg" alt="Government" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
                             <h3>Government</h3>
                             <p class="text-left mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>
                         <div class="slide-logo-light">
-                            <img src="/imgs/solutions/svg/solutions/resources-blue.svg" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
+                            <img src="/imgs/solutions/svg/solutions/resources-blue.svg" alt="Resources" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
                             <h3>Resources</h3>
                             <p class="text-left mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>
                         <div class="slide-logo-light">
-                            <img src="/imgs/solutions/svg/solutions/higher-education-blue.svg" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
+                            <img src="/imgs/solutions/svg/solutions/higher-education-blue.svg" alt="Higher Education" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
                             <h3>Higher Education</h3>
                             <p class="text-left mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>
                         <div class="slide-logo-light">
-                            <img src="/imgs/solutions/svg/solutions/resources-blue.svg" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
+                            <img src="/imgs/solutions/svg/solutions/resources-blue.svg" alt="Resources" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
                             <h3>Resources</h3>
                             <p class="text-left mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>

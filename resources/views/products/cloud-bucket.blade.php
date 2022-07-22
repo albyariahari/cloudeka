@@ -11,7 +11,7 @@
         <div class="banner-title">
             <img src="/imgs/products/banners/cloud-bucket.png" class="w-100">
             <h1>Cloud Bucket</h1>
-            <div class="icon-product"><img src="/imgs/solutions/svg/solutions/products/cloud-bucket-2.svg" class="img-fluid"/></div>
+            <div class="icon-product"><img src="/imgs/solutions/svg/solutions/products/cloud-bucket-2.svg" alt="Cloud Bucket"class="img-fluid"/></div>
         </div>
 
     </div>
@@ -39,7 +39,7 @@
                 </div>
                 <div class="col-12 col-lg-8">
                     <div class="d-flex justify-content-center justify-content-lg-start w-100">
-                        <img src="/imgs/products/nettapp.png" height="64">
+                        <img src="/imgs/products/nettapp.png" height="64" alt="Technology partners">
                     </div>
                 </div>
             </div>
@@ -106,17 +106,17 @@
                 <div class="col-lg-8 dark-color pt-2">
                     <div class="row product-lists owl-carousel owl-theme">
                         <div class="col-12 col-lg-6 col-xl-4 px-xl-4 pb-0 pb-lg-5">
-                            <img src="/imgs/products/feature-products/020-vision.svg" class="img-fluid" style="max-width: 100px; height:100px;">
+                            <img src="/imgs/products/feature-products/020-vision.svg" alt="Cloud Bucket Features and Benefit Easily manage and control data" class="img-fluid" style="max-width: 100px; height:100px;">
                             <h4 class="mt-4 mb-3">Easily manage<br>and control data</h4>
                                 <p>You can configure by using a dedicated webportal, manage replication between multisite, and provide users access to buckets.</p>
                         </div>
                         <div class="col-12 col-lg-6 col-xl-4 px-xl-4 pb-0 pb-lg-5">
-                            <img src="/imgs/products/feature-products/018-data transfer.svg" class="img-fluid" style="max-width: 100px; height:100px;">
+                            <img src="/imgs/products/feature-products/018-data transfer.svg" class="img-fluid" alt="High-Performance Cloud Storage" style="max-width: 100px; height:100px;">
                             <h4 class="mt-4 mb-3">High-Performance<br>Cloud Storage</h4>
                                 <p>Equipped with SSD storage on the backend for optimal performance.</p>
                         </div>
                         <div class="col-12 col-lg-6 col-xl-4 px-xl-4 pb-0 pb-lg-5">
-                            <img src="/imgs/products/feature-products/005-investment.svg" class="img-fluid" style="max-width: 100px; height:100px;">
+                            <img src="/imgs/products/feature-products/005-investment.svg" class="img-fluid" alt=Cost-effective" style="max-width: 100px; height:100px;">
                             <h4 class="mt-4 mb-3">Cost-effective</h4>
                             <p>No additional cost is imposed for egress/ingress and port hourly, and free shared Internet up to 1 Gbps IIX and 200 Mbps IX.</p>
                         </div>
@@ -138,17 +138,17 @@
                     <h3 class="light-color mb-5">See Our Solutions Industry Covered by <strong>Cloud Bucket</strong> Product</h3>
                     <div class="owl-carousel owl-slide owl-carousel-2 owl-theme">
                         <div class="slide-logo-light">
-                            <img src="/imgs/solutions/svg/solutions/government-blue.svg" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
+                            <img src="/imgs/solutions/svg/solutions/government-blue.svg" class="img-fluid" alt="Government" style="max-height: 36px;margin-bottom: 7px;">
                             <h3>Government</h3>
                             <p class="text-left mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>
                         <div class="slide-logo-light">
-                            <img src="/imgs/solutions/svg/solutions/telco-blue.svg" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
+                            <img src="/imgs/solutions/svg/solutions/telco-blue.svg" class="img-fluid" alt="Telco" style="max-height: 36px;margin-bottom: 7px;">
                             <h3>Telco</h3>
                             <p class="text-left mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>
                         <div class="slide-logo-light">
-                            <img src="/imgs/solutions/svg/solutions/digital-company-blue.svg" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
+                            <img src="/imgs/solutions/svg/solutions/digital-company-blue.svg" class="img-fluid" alt="Digital Company" style="max-height: 36px;margin-bottom: 7px;">
                             <h3>Digital Company</h3>
                             <p class="text-left mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>

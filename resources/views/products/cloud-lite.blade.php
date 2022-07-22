@@ -9,9 +9,9 @@
     <!-- Banner -->
     <div class="container-fluid banner">
         <div class="banner-title">
-            <img src="/imgs/products/banners/cloud-lite.png" class="w-100">
+            <img src="/imgs/products/banners/cloud-lite.png" alt="Cloud Lite banner" class="w-100">
             <h1>Cloud Lite</h1>
-            <div class="icon-product"><img src="/imgs/solutions/svg/solutions/products/cloud-premium-2.svg" class="img-fluid"/></div>
+            <div class="icon-product"><img src="/imgs/solutions/svg/solutions/products/cloud-premium-2.svg" alt="Cloud Lite" class="img-fluid"/></div>
         </div>
 
     </div>
@@ -40,7 +40,7 @@
                 </div>
                 <div class="col-12 col-lg-8">
                     <div class="d-flex justify-content-center justify-content-lg-start w-100">
-                        <img src="/imgs/products/red-hat.png" width="300">
+                        <img src="/imgs/products/red-hat.png" width="300" alt="Technology partners">
                     </div>
                 </div>
             </div>
@@ -107,17 +107,17 @@
                 <div class="col-lg-8 dark-color pt-2">
                     <div class="row product-lists owl-carousel owl-theme">
                         <div class="col-12 col-lg-6 col-xl-4 px-xl-4 pb-0 pb-lg-5">
-                            <img src="/imgs/products/feature-products/066-launch.svg" class="img-fluid" style="max-width: 100px; height:100px;">
+                            <img src="/imgs/products/feature-products/066-launch.svg" alt="Simple Deployment" class="img-fluid" style="max-width: 100px; height:100px;">
                             <h4 class="mt-4 mb-3">Simple Deployment</h4>
                             <p>Comes with a fixed package for the virtual machines so there is no need to configure vCPU or vRAM anymore.</p>
                         </div>
                         <div class="col-12 col-lg-6 col-xl-4 px-xl-4 pb-0 pb-lg-5">
-                            <img src="/imgs/products/feature-products/030-time.svg" class="img-fluid" style="max-width: 100px; height:100px;">
+                            <img src="/imgs/products/feature-products/030-time.svg" alt="No More Bandwidth Metering" alt="No More Bandwidth Metering" class="img-fluid" style="max-width: 100px; height:100px;">
                             <h4 class="mt-4 mb-3">No More Bandwidth <br>Metering</h4>
                             <p>Free shared Internet up to 1 Gbps IIX and 200 Mbps IX or you can choose Lintasarta Internet Dedicated or Lintasarta Metro Ethernet for faster and more stable connections.</p>
                         </div>
                         <div class="col-12 col-lg-6 col-xl-4 px-xl-4 pb-0 pb-lg-5">
-                            <img src="/imgs/products/feature-products/022-solution.svg" class="img-fluid" style="max-width: 100px; height:100px;">
+                            <img src="/imgs/products/feature-products/022-solution.svg" alt="Cloud At No Cost" class="img-fluid" style="max-width: 100px; height:100px;">
                             <h4 class="mt-4 mb-3">Cloud At No Cost </h4>
                             <p>No additional cost is imposed for egress/ingress and port hourly, unless for the bandwidth from Internet Dedicated or Metro Ethernet.</p>
                         </div>
@@ -139,32 +139,32 @@
                     <h3 class="light-color mb-5">See Our Solutions Industry Covered by <strong>Cloud Lite</strong> Product</h3>
                     <div class="owl-carousel owl-slide owl-carousel-2 owl-theme">
                         <div class="slide-logo-light">
-                            <img src="/imgs/solutions/svg/solutions/banking-blue.svg" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
+                            <img src="/imgs/solutions/svg/solutions/banking-blue.svg" alt="Banking" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
                             <h3>Banking</h3>
                             <p class="text-left mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>
                         <div class="slide-logo-light">
-                            <img src="/imgs/solutions/svg/solutions/finance-non-bank-blue.svg" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
+                            <img src="/imgs/solutions/svg/solutions/finance-non-bank-blue.svg" alt="Finance Non-Bank" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
                             <h3>Finance Non-Bank</h3>
                             <p class="text-left mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>
                         <div class="slide-logo-light">
-                            <img src="/imgs/solutions/svg/solutions/government-blue.svg" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
+                            <img src="/imgs/solutions/svg/solutions/government-blue.svg" alt="Government" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
                             <h3>Government</h3>
                             <p class="text-left mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>
                         <div class="slide-logo-light">
-                            <img src="/imgs/solutions/svg/solutions/resources-blue.svg" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
+                            <img src="/imgs/solutions/svg/solutions/resources-blue.svg" alt="Resources" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
                             <h3>Resources</h3>
                             <p class="text-left mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>
                         <div class="slide-logo-light">
-                            <img src="/imgs/solutions/svg/solutions/plantation-blue.svg" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
+                            <img src="/imgs/solutions/svg/solutions/plantation-blue.svg" alt="Plantation" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
                             <h3>Plantation</h3>
                             <p class="text-left mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>
                         <div class="slide-logo-light">
-                            <img src="/imgs/solutions/svg/solutions/resources-blue.svg" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
+                            <img src="/imgs/solutions/svg/solutions/resources-blue.svg" alt="Resources" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;">
                             <h3>Resources</h3>
                             <p class="text-left mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                         </div>

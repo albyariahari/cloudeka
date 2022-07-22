@@ -9,7 +9,7 @@
     <!-- Banner -->
     <div class="container-fluid banner">
         <div class="banner-title">
-            <img src="/imgs/solutions/solution-detail.jpg" class="w-100">
+            <img src="/imgs/solutions/solution-detail.jpg" alt="cloudeka Banking Solution" class="w-100">
             <h1>Banking Solution</h1>
             <div class="icon-product"><img src="/imgs/solutions/svg/solutions/banking.svg" class="img-fluid" style="max-height: 60px;"></div>
         </div>

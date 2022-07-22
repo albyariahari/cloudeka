@@ -1,9 +1,9 @@
 @extends('app')
 
 @section('meta')
-<meta name="description" content="{{$metadata->meta_description }}">
-<meta name="keywords" content=" {{ $metadata->meta_keyword }}">
-<title>{{$metadata->meta_title}} - Lintasarta Cloudeka</title>
+<meta name="description" content="Data cloud business solutions di Indonesia persembahan Lintasarta Cloudeka. Solusi cloud anak negeri yang aman, mudah, dan hemat biaya untuk web/aplikasi hosting">
+<meta name="keywords" content="cloud managed solutions, data cloud solutions, cloud business solutions">
+<title>Data Cloud Business Solutions Indonesia - Lintasarta Cloudeka</title>
 @endsection
 
 @push('styles')
@@ -27,7 +27,7 @@
                     <div class="android-only">
                         <h1 class="light-color">{{ $slideshow->translate($lang)->title }}</h1>
                     </div>
-                    <img src="{{ cloudekaBucketLocalUrl($slideshow->image) }}" class="d-block w-100" alt="Banner">
+                    <img src="{{ cloudekaBucketLocalUrl($slideshow->image) }}" class="d-block w-100" alt="Banner solution list">
                     <div class="carousel-caption">
                         <h1 class="light-color android-none" data-aos="fade-up" data-aos-duration="500">{{ $slideshow->translate($lang)->title }}</h1>
                         <div class="description" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
@@ -39,6 +39,7 @@
                 @endforeach
             </div>
         </div>
+        {{ Breadcrumbs::render('solutions') }}
     </div>
 
 

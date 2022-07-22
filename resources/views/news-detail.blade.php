@@ -14,11 +14,12 @@
     <!-- Banner -->
     <div class="container-fluid px-0">
         <div class="banner-title">
-            <img src="{{ cloudekaBucketLocalUrl($banner->image_1) }}" class="w-100" alt="{{$newsTranslation->meta_title}}">
+            <img src="{{ cloudekaBucketLocalUrl($banner->image_1) }}" class="w-100" alt="{{$newsTranslation->meta_title}} cloudeka news details">
             <div class="text">
                 <h2 class="light-color mb-0" data-aos="fade-up" data-aos-duration="500">{{$banner->title}}</h2>
             </div>
         </div>
+        {{ Breadcrumbs::render('news.detail',$banner) }}
     </div>
     <!-- /Banner -->
 

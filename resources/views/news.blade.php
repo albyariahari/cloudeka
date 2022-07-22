@@ -98,12 +98,13 @@
     <!-- Banner -->
     <div class="container-fluid px-0">
         <div class="banner-title">
-			<img src="{{ cloudekaBucketLocalUrl($banner->image_1) }}" class="w-100" alt="{{$metadata->meta_title}}">
+			<img src="{{ cloudekaBucketLocalUrl($banner->image_1) }}" class="w-100" alt="{{$metadata->meta_title}} news banner in cloudeka ">
 			<div class="icon-product icon-product--page"><img src="/imgs/news-banner-icon.svg" class="img-fluid"/></div>
             <div class="text">
                 <h2 class="light-color mb-0" data-aos="fade-up" data-aos-duration="500">{{$category->title ?? $banner->title}}</h2>
             </div>
         </div>
+        {{ Breadcrumbs::render('news') }}
     </div>
     <!-- /Banner -->
 
@@ -134,7 +135,7 @@
                                         @endforeach
                                     </div>
                                     <div class="img-wrapper">
-                                        <img src="{{cloudekaBucketLocalUrl($news['bigSection']->translate($lang)->outer_thumbnail)}}" alt="">
+                                        <img src="{{cloudekaBucketLocalUrl($news['bigSection']->translate($lang)->outer_thumbnail)}}" alt="outer thumbnail cloudeka">
                                     </div>
                                     <div class="content-wrapper">
                                         <strong class="date">{{\Carbon\Carbon::parse($news['bigSection']->created_at)->format('d/m/Y')}}</strong>
@@ -151,7 +152,7 @@
                                     <li data-aos="fade-left" data-aos-duration="500"  data-aos-delay="100">
                                         <div class="img-wrapper">
                                             <a href="{{route('news.detail',[$new->Category->translate($lang)->slug,$new->translate($lang)->slug])}}">
-                                                <img src="{{cloudekaBucketLocalUrl($new->translate($lang)->outer_thumbnail)}}" alt="" />
+                                                <img src="{{cloudekaBucketLocalUrl($new->translate($lang)->outer_thumbnail)}}" alt="outer_thumbnail cloudeka" />
                                             </a>
                                         </div>
                                         <div class="content-wrapper">
@@ -182,7 +183,7 @@
                                     </div>
                                     <div class="img-wrapper">
                                         <a href="{{route('news.detail',[$new->Category->translate($lang)->slug,$new->translate($lang)->slug])}}">
-                                            <img src="{{cloudekaBucketLocalUrl($new->translate($lang)->outer_thumbnail)}}" alt="">
+                                            <img src="{{cloudekaBucketLocalUrl($new->translate($lang)->outer_thumbnail)}}" alt="outer_thumbnail cloudeka">
                                         </a>
                                     </div>
                                     <div class="content-wrapper">
@@ -203,7 +204,7 @@
                             <div class="col-12 pb-4 pb-lg-0" data-aos="fade-up" data-aos-duration="500"  data-aos-delay="100">
                                 <div class="card">
                                     <div class="img-wrapper">
-                                        <img src="{{cloudekaBucketLocalUrl($new->translate($lang)->outer_thumbnail)}}" alt="">
+                                        <img src="{{cloudekaBucketLocalUrl($new->translate($lang)->outer_thumbnail)}}" alt="outer_thumbnail cloudeka">
                                     </div>
                                     <div class="content-wrapper">
                                         <div class=" tag-date">
@@ -254,7 +255,7 @@
                                         @endforeach
                                     </div>
                                     <div class="img-wrapper">
-                                        <img src="{{cloudekaBucketLocalUrl($event['bigSection']->translate($lang)->outer_thumbnail)}}" alt="">
+                                        <img src="{{cloudekaBucketLocalUrl($event['bigSection']->translate($lang)->outer_thumbnail)}}" alt="outer_thumbnail cloudeka">
                                     </div>
                                     <div class="content-wrapper">
                                         <strong class="date">{{\Carbon\Carbon::parse($event['bigSection']->created_at)->format('d/m/Y')}}</strong>
@@ -270,7 +271,7 @@
                                     @foreach ($event['tripleRow'] as $new)
                                     <li data-aos="fade-left" data-aos-duration="500"  data-aos-delay="100">
                                         <div class="img-wrapper">
-                                            <img src="{{cloudekaBucketLocalUrl($new->translate($lang)->outer_thumbnail)}}" alt="">
+                                            <img src="{{cloudekaBucketLocalUrl($new->translate($lang)->outer_thumbnail)}}" alt="outer_thumbnail cloudeka">
                                         </div>
                                         <div class="content-wrapper">
                                             <strong class="date">{{\Carbon\Carbon::parse($new->created_at)->format('d')}} <span>{{\Carbon\Carbon::parse($new->created_at)->format('F')}}</span> {{\Carbon\Carbon::parse($new->created_at)->format('Y')}}</strong>
@@ -299,7 +300,7 @@
                                         @endforeach
                                     </div>
                                     <div class="img-wrapper">
-                                        <img src="{{cloudekaBucketLocalUrl($new->translate($lang)->outer_thumbnail)}}" alt="">
+                                        <img src="{{cloudekaBucketLocalUrl($new->translate($lang)->outer_thumbnail)}}" alt="outer_thumbnail cloudeka">
                                     </div>
                                     <div class="content-wrapper">
                                         <h1><a href="{{route('news.detail',[$new->Category->translate($lang)->slug,$new->translate($lang)->slug])}}">{{ $new->translate($lang)->title }}</a></h1>
@@ -319,7 +320,7 @@
                             <div class="col-12 pb-4 pb-lg-0" data-aos="fade-up" data-aos-duration="500"  data-aos-delay="100">
                                 <div class="card">
                                     <div class="img-wrapper">
-                                        <img src="{{cloudekaBucketLocalUrl($new->translate($lang)->outer_thumbnail)}}" alt="">
+                                        <img src="{{cloudekaBucketLocalUrl($new->translate($lang)->outer_thumbnail)}}" alt="outer_thumbnail cloudeka">
                                     </div>
                                     <div class="content-wrapper">
                                         <div class=" tag-date">
@@ -348,7 +349,7 @@
                         @if (count($event['fourthRow']) === 4 & $event['count'] > 12)
                         <button class="btn btn-rounded btn-primary btn-gradient mx-auto d-flex align-items-center" id="load-more-event" data-count="{{$event['startData']}}" data-all="{{$event['count']}}" data-category_slug="{{$category_slug ?? null}}">
                             <span class="pl-3 ml-4 font-18 text-load">Load More</span>
-                            <img src="{{ '/imgs/news/load-more.svg' }}" class="ml-4" height="20">
+                            <img src="{{ '/imgs/news/load-more.svg' }}" class="ml-4" height="20" alt="news image cloudeka">
                         </button>
                         @endif
                     </div>

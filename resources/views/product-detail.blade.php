@@ -3,7 +3,7 @@
 @section('meta')
 <meta name="description" content="{{$productTranslate->meta_description }}">
 <meta name="keywords" content=" {{ $productTranslate->meta_keyword }}">
-<title>{{$productTranslate->meta_title}} - Lintasarta Cloudeka</title>
+<title>{{$productTranslate->meta_title}}</title>
 @endsection
 
 @push('styles')
@@ -15,11 +15,11 @@
 <!-- Banner -->
 <div class="container-fluid banner">
     <div class="banner-title">
-        <img src="{{ cloudekaBucketLocalUrl($productTranslate->images) }}" class="w-100" alt="Banner">
+        <img src="{{ cloudekaBucketLocalUrl($productTranslate->images) }}" class="w-100" alt="Banner product detail in cloudeka">
         <h1 data-aos="fade-up" data-aos-duration="500">{{$productTranslate->title}}</h1>
         <div class="icon-product"><img src="{{ cloudekaBucketLocalUrl($productTranslate->logo_1) }}" class="img-fluid" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" alt="Icon"/></div>
     </div>
-
+    {{ Breadcrumbs::render('products.show',$productTranslate) }}
 </div>
 
 <!-- Section description -->
@@ -49,7 +49,7 @@
                 <div class="owl-carousel owl-slide owl-theme tech-partners">
                     @foreach ($productTranslate->Product->Partners as $key => $partner)
                     <div class="items" data-aos="fade-up" data-aos-duration="500" data-aos-delay="{{ $key + 1 }}00">
-                        <img src="{{ cloudekaBucketLocalUrl($partner->logo) }}" class="img-fluid" alt="Partners" loading="lazy">
+                        <img src="{{ cloudekaBucketLocalUrl($partner->logo) }}" class="img-fluid" alt="our Partners cloudeka indonesian cloud solution" loading="lazy">
                     </div>
                     @endforeach
                 </div>
@@ -168,7 +168,7 @@
                     <div class="owl-carousel owl-slide owl-carousel-2 owl-theme">
                         @foreach ($productTranslate->Product->Solutions as $key => $solution)
                         <div class="slide-logo-light" data-aos="fade-up" data-aos-duration="500" data-aos-delay="{{ $key + 2 }}00">
-                            <img src="{{ cloudekaBucketLocalUrl($solution->translate($lang)->logo_2) }}" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;" alt="Icon Product" loading="lazy">
+                            <img src="{{ cloudekaBucketLocalUrl($solution->translate($lang)->logo_2) }}" class="img-fluid" style="max-height: 36px;margin-bottom: 7px;" alt="Icon Product cloudeka indonesian cloud solutions" loading="lazy">
                             <h3>{{$solution->translate($lang)->title}}</h3>
                             <p class="text-center mt-1 description">
                                 <!-- {{$solution->translate($lang)->excerpt}} -->

@@ -45,7 +45,7 @@
     <section class="documentation-banner">
         <div class="container-fluid px-0">
             <div class="banner-title">
-                <img src='{{ cloudekaBucketLocalUrl($banner->image_1) }}' class="w-100" alt="Why Lintasarta cloud" loading="lazy">
+                <img src='{{ cloudekaBucketLocalUrl($banner->image_1) }}' class="w-100" alt="Why Lintasarta cloud documentation seach cloudeka" loading="lazy">
                 <img src="{{ '/imgs/documentations/documents.png' }}" class="img-fluid document-svg" alt="Icon" loading="lazy">
                 <div class="text">
                     <h2 class="light-color">{!! $banner->title !!}</h2>

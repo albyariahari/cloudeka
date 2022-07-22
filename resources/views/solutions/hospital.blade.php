@@ -9,7 +9,7 @@
     <!-- Banner -->
     <div class="container-fluid banner">
         <div class="banner-title">
-            <img src="/imgs/solutions/solution-detail.jpg" class="w-100">
+            <img src="/imgs/solutions/solution-detail.jpg" alt="Hospital" class="w-100">
             <h1>Hospital</h1>
             <div class="icon-product"><i class="icon-hospital my-auto"></i></div>
         </div>

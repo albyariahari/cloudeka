@@ -294,7 +294,7 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'admin', 'namespace' => 'Adm
 });
 
 Route::prefix(LaravelLocalization::setLocale())->middleware(['localeSessionRedirect', 'localizationRedirect', 'localeViewPath'])->group(function () {
-    Route::get('/', 'HomeController@index');
+    Route::get('/', 'HomeController@index')->name('home');
     Route::get('why-us', 'HomeController@whyUs')->name('why-us');
     Route::get('products', 'ProductController@index')->name('product.index');
     Route::get('products/{slug}', 'ProductController@show')->name('product.show');

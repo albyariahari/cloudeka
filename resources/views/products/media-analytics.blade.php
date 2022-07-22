@@ -9,7 +9,7 @@
     <!-- Banner -->
     <div class="container-fluid banner">
         <div class="banner-title">
-            <img src="/imgs/products/banners/media-analytics.png" class="w-100">
+            <img src="/imgs/products/banners/media-analytics.png" alt="Media Analytics cloudeka " class="w-100">
             <h1>Media Analytics</h1>
             <div class="icon-product"><img src="/imgs/solutions/svg/solutions/products/cloud-premium-2.svg" class="img-fluid" /></div>
         </div>
