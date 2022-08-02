@@ -433,3 +433,11 @@ Route::get('/mail', function () {
     return view('emails.send-estimation-prototype');
 })->name('mail');
 
+// File::put('404.html',
+//     view('resources.views.errors.404')
+//         ->render()
+// );
+// File::put('500.html',
+//     view('resources.views.errors.500')
+//         ->render()
+// );
