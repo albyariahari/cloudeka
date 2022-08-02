@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- CSRF Token -->
-        <meta name="csrf-token" content="k9HbnWbOEYCkUDFrdng0L9QsE5gEx2h1onIACcxl">
+        <meta name="csrf-token" content="MQWbHQNjMg5jCoU07gJ1qdWBT1Qok3VQRf1K6kSx">
         <meta name="robots" content="index,follow">
         <meta name="googlebot" content="index,follow">
         <link rel="alternate" hreflang="en-gb" href="http://127.0.0.1:8000/500">
@@ -30,21 +30,63 @@
         .textRed {
             text-align: center;
             font-family: "Fira Sans", sans-bold;
-            font-size: 60px;
+            font-size: 80px;
+            margin-bottom: 0%;
         }
+
         .buttonAct {
             text-align: center;
         }
 
         .block {
-            display: block;
-            width: 90%;
+            width: 240px;
+            height: 50px;
+            border-radius: 50px;
+            background-color: #2595D3;
             border: none;
-            background-color: #04AA6D;
-            padding: 14px 28px;
-            font-size: 16px;
-            cursor: pointer;
+            color: white;
+            padding: 2px;
             text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .block-bottom {
+            width: 240px;
+            height: 50px;
+            border-radius: 50px;
+            background-color: #2595D3;
+            border: none;
+            color: white;
+            padding: 2px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .box {
+            background-color: white;
+            box-shadow: 2px 2px 5px 5px #D1E5F0;
+            border-radius: 20px;
+        }
+
+        .img404 {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+        }
+
+        body {
+            background-image: url("/imgs/BG-Cloud.png");
+            background-repeat: no-repeat;
+            background-size: cover;
         }
     </style>
         <link href="./500_files/app.css" rel="stylesheet">
@@ -833,32 +875,38 @@
 
         
             <main id="main">
-                    <div class="container-fluid">
-        <div class="row">
-            <div class="col-3"></div>
-            <div class="col-6 ">
-                <p class="middle">
-                    <b>500</b>
-                </p>
-                <p class="text-danger textRed">
-                    <b>The page you're looking for can't be found..</b>
-                </p>
-                <div class="row">
-                    <div class="col-6 buttonAct">
-                        <p><a href="http://127.0.0.1:8000/products"><button type="button" class="btn btn-primary block">Try Cloud Products</button></a><br></p>
-                        <p><a href="http://127.0.0.1:8000/news"><button type="button" class="btn btn-primary block">Read Latest Articles</button></a><br></p>
-                        <p><a href="http://127.0.0.1:8000/calculator"><button type="button" class="btn btn-primary block">See Pricing</button></a><br></p>
-                    </div>
-                    <div class="col-6 buttonAct">
-                        <p><a href="http://127.0.0.1:8000/solutions"><button type="button" class="btn btn-primary block">Find Cloud Solutions</button></a><br></p>
-                        <p><a href="http://127.0.0.1:8000/contact-us"><button type="button" class="btn btn-primary block">Ask Anything</button></a><br></p>
-                        <p><a href="http://127.0.0.1:8000/"><button type="button" class="btn btn-primary block">Go To HomePage</button></a><br></p>
-                    </div>
+                    <div class="container box">
+        <div class="Shadow-risen p-3 mb-5 mt-5 bg-red rounded w-25" style="height: 45em;">
+            <img class="img404" src="./500_files/500.png">
+            <p class="text-danger textRed">
+                <b>We'll be right back...</b>
+            </p>
+            <p style="text-align: center">Relax, you can try our search box above or try one of the links below.</p>
+
+            <div class="row buttonAct">
+                <div class="col">
+                    <a href="http://127.0.0.1:8000/products"><button type="button" class="block">Try Cloud Products</button></a><br>
                 </div>
-                <br>
+                <div class="col">
+                    <p><a href="http://127.0.0.1:8000/solutions"><button type="button" class="block">Find Cloud Solutions</button></a><br></p>
+                </div>
+                <div class="col">
+                    <p><a href="http://127.0.0.1:8000/news"><button type="button" class="block">Read Latest Articles</button></a><br></p>
+                </div>
+                <div class="col">
+                    <p><a href="http://127.0.0.1:8000/calculator"><button type="button" class="block">See Pricing</button></a><br></p>
+                </div>
             </div>
-            <div class="col-3"></div>
+            <div class="row buttonAct">
+                <div class="col">
+                    <p><a href="http://127.0.0.1:8000/contact-us"><button type="button" class="block-bottom float-right">Ask Anything</button></a><br></p>
+                </div>
+                <div class="col d-flex">
+                    <p><a href="http://127.0.0.1:8000/"><button type="button" class="block-bottom float-left">Go To HomePage</button></a><br></p>
+                </div>
+            </div>
         </div>
+        
     </div>
  
             </main>
@@ -1113,7 +1161,7 @@ info@cloudeka.id</p>
 							"email": $('input[type=text]#subscribe-email').val()
 						}, 
 						"headers": {
-							"X-CSRF-TOKEN": "k9HbnWbOEYCkUDFrdng0L9QsE5gEx2h1onIACcxl"
+							"X-CSRF-TOKEN": "MQWbHQNjMg5jCoU07gJ1qdWBT1Qok3VQRf1K6kSx"
 						}, 
 						"success": function(response, textStatus, jqXHR) {
 							// alert(response.message);
