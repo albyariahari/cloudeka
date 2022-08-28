@@ -14,6 +14,7 @@ use App\Models\Module;
 
 // Service(s)
 use App\Services\Benefit\BenefitTypeService;
+use Illuminate\Support\Facades\URL;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -34,6 +35,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(BenefitTypeService $typeService, Dispatcher $events)
     {
+        URL::forceScheme('https');
         $content_management = [
             [
                 'text' => 'Page Section',
