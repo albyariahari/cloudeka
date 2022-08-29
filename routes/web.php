@@ -12,7 +12,10 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-URL::forceScheme('https');  //at the top of the file
+if (App::environment('production')) {
+    URL::forceScheme('https');
+}
+// URL::forceScheme('https');  //at the top of the file
 Route::get('/sitemap.xml', 'SitemapXmlController@index');
 
 Auth::routes(['register' => false]);

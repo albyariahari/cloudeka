@@ -35,7 +35,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(BenefitTypeService $typeService, Dispatcher $events)
     {
-        URL::forceScheme('https');
+        // URL::forceScheme('https');
+        if (App::environment('production')) {
+            URL::forceScheme('https');
+        }
         $content_management = [
             [
                 'text' => 'Page Section',
