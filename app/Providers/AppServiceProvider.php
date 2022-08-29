@@ -14,6 +14,7 @@ use App\Models\Module;
 
 // Service(s)
 use App\Services\Benefit\BenefitTypeService;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\URL;
 
 class AppServiceProvider extends ServiceProvider
